@@ -1,982 +1,383 @@
 {
   "General Knowledge": {
-    "easy": [
-      {
-        "id": "gk_easy_1",
-        "questionText": "What is the capital of India?",
-        "options": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
-        "correctIndex": 1
-      },
-      {
-        "id": "gk_easy_2",
-        "questionText": "Which currency is used in the United States of America?",
-        "options": ["Euro", "Dollar", "Pound", "Yen"],
-        "correctIndex": 1
-      },
-      {
-        "id": "gk_easy_3",
-        "questionText": "Which of these is the largest continent by area?",
-        "options": ["Africa", "Asia", "Europe", "Australia"],
-        "correctIndex": 1
-      },
-      {
-        "id": "gk_easy_4",
-        "questionText": "Who wrote the Indian national anthem?",
-        "options": ["Rabindranath Tagore", "Bankim Chandra Chatterjee", "Mahatma Gandhi", "Subhash Chandra Bose"],
-        "correctIndex": 0
-      },
-      {
-        "id": "gk_easy_5",
-        "questionText": "Which day is celebrated as Independence Day in India?",
-        "options": ["15th August", "26th January", "2nd October", "14th November"],
-        "correctIndex": 0
-      }
+    "easy":[
+      {"id":"gk_easy_1","questionText":"What is the capital of India?","options":["Mumbai","New Delhi","Kolkata","Chennai"],"correctIndex":1},
+      {"id":"gk_easy_2","questionText":"Which currency is used in the United States of America?","options":["Euro","Dollar","Pound","Yen"],"correctIndex":1},
+      {"id":"gk_easy_3","questionText":"Which of these is the largest continent by area?","options":["Africa","Asia","Europe","Australia"],"correctIndex":1},
+      {"id":"gk_easy_4","questionText":"Who wrote the Indian national anthem?","options":["Rabindranath Tagore","Bankim Chandra Chatterjee","Mahatma Gandhi","Subhash Chandra Bose"],"correctIndex":0},
+      {"id":"gk_easy_5","questionText":"Which day is celebrated as Independence Day in India?","options":["15th August","26th January","2nd October","14th November"],"correctIndex":0},
+      {"id":"gk_easy_6","questionText":"Which is the national animal of India?","options":["Tiger","Elephant","Lion","Peacock"],"correctIndex":0},
+      {"id":"gk_easy_7","questionText":"What is the official language of India?","options":["Hindi","English","Tamil","All of the above"],"correctIndex":3},
+      {"id":"gk_easy_8","questionText":"Which planet is nearest to the Sun?","options":["Venus","Earth","Mercury","Mars"],"correctIndex":2},
+      {"id":"gk_easy_9","questionText":"Which is the national fruit of India?","options":["Apple","Mango","Banana","Orange"],"correctIndex":1},
+      {"id":"gk_easy_10","questionText":"Which sport is considered the national game of India?","options":["Hockey","Cricket","Football","Kabaddi"],"correctIndex":0}
     ],
-    "medium": [
-      {
-        "id": "gk_med_1",
-        "questionText": "Which of the following is the longest river in the world by length?",
-        "options": ["Nile", "Amazon", "Yangtze", "Ganga"],
-        "correctIndex": 0
-      },
-      {
-        "id": "gk_med_2",
-        "questionText": "Which Indian state is known as the 'Land of Five Rivers'?",
-        "options": ["Punjab", "Haryana", "Gujarat", "Rajasthan"],
-        "correctIndex": 0
-      },
-      {
-        "id": "gk_med_3",
-        "questionText": "The Great Wall is located in which country?",
-        "options": ["India", "China", "Japan", "Russia"],
-        "correctIndex": 1
-      },
-      {
-        "id": "gk_med_4",
-        "questionText": "Which of these is not a primary colour of light?",
-        "options": ["Red", "Green", "Blue", "Yellow"],
-        "correctIndex": 3
-      },
-      {
-        "id": "gk_med_5",
-        "questionText": "Who is known as the 'Missile Man of India'?",
-        "options": ["C. V. Raman", "Homi Bhabha", "A. P. J. Abdul Kalam", "Vikram Sarabhai"],
-        "correctIndex": 2
-      }
+    "medium":[
+      {"id":"gk_med_1","questionText":"Which of the following is the longest river in the world by length?","options":["Nile","Amazon","Yangtze","Ganga"],"correctIndex":0},
+      {"id":"gk_med_2","questionText":"Which Indian state is known as the 'Land of Five Rivers'?","options":["Punjab","Haryana","Gujarat","Rajasthan"],"correctIndex":0},
+      {"id":"gk_med_3","questionText":"The Great Wall is located in which country?","options":["India","China","Japan","Russia"],"correctIndex":1},
+      {"id":"gk_med_4","questionText":"Which of these is not a primary colour of light?","options":["Red","Green","Blue","Yellow"],"correctIndex":3},
+      {"id":"gk_med_5","questionText":"Who is known as the 'Missile Man of India'?","options":["C. V. Raman","Homi Bhabha","A. P. J. Abdul Kalam","Vikram Sarabhai"],"correctIndex":2},
+      {"id":"gk_med_6","questionText":"Which country is known as the 'Land of the Rising Sun'?","options":["China","Japan","Korea","Thailand"],"correctIndex":1},
+      {"id":"gk_med_7","questionText":"Which is the smallest continent by land area?","options":["Australia","Europe","Antarctica","South America"],"correctIndex":0},
+      {"id":"gk_med_8","questionText":"Which ocean is the largest in the world?","options":["Atlantic","Indian","Pacific","Arctic"],"correctIndex":2},
+      {"id":"gk_med_9","questionText":"Who invented the telephone?","options":["Alexander Graham Bell","Thomas Edison","Nikola Tesla","Guglielmo Marconi"],"correctIndex":0},
+      {"id":"gk_med_10","questionText":"Which Indian state has the largest population?","options":["Uttar Pradesh","Maharashtra","Bihar","West Bengal"],"correctIndex":0}
     ],
-    "hard": [
-      {
-        "id": "gk_hard_1",
-        "questionText": "In which year did India become a republic?",
-        "options": ["1947", "1948", "1949", "1950"],
-        "correctIndex": 3
-      },
-      {
-        "id": "gk_hard_2",
-        "questionText": "Which city is known as the 'Silicon Valley of India'?",
-        "options": ["Hyderabad", "Bengaluru", "Pune", "Chennai"],
-        "correctIndex": 1
-      },
-      {
-        "id": "gk_hard_3",
-        "questionText": "The headquarters of the International Court of Justice is located in:",
-        "options": ["Geneva", "The Hague", "New York", "Paris"],
-        "correctIndex": 1
-      },
-      {
-        "id": "gk_hard_4",
-        "questionText": "Who was the first Governor-General of independent India?",
-        "options": ["Lord Mountbatten", "Rajendra Prasad", "Jawaharlal Nehru", "C. Rajagopalachari"],
-        "correctIndex": 0
-      },
-      {
-        "id": "gk_hard_5",
-        "questionText": "Which of these is the smallest country in the world by area?",
-        "options": ["Monaco", "Vatican City", "Nauru", "San Marino"],
-        "correctIndex": 1
-      }
+    "hard":[
+      {"id":"gk_hard_1","questionText":"In which year did India become a republic?","options":["1947","1948","1949","1950"],"correctIndex":3},
+      {"id":"gk_hard_2","questionText":"Which city is known as the 'Silicon Valley of India'?","options":["Hyderabad","Bengaluru","Pune","Chennai"],"correctIndex":1},
+      {"id":"gk_hard_3","questionText":"The headquarters of the International Court of Justice is located in:","options":["Geneva","The Hague","New York","Paris"],"correctIndex":1},
+      {"id":"gk_hard_4","questionText":"Who was the first Governor-General of independent India?","options":["Lord Mountbatten","Rajendra Prasad","Jawaharlal Nehru","C. Rajagopalachari"],"correctIndex":0},
+      {"id":"gk_hard_5","questionText":"Which of these is the smallest country in the world by area?","options":["Monaco","Vatican City","Nauru","San Marino"],"correctIndex":1},
+      {"id":"gk_hard_6","questionText":"Who is known as the 'Father of Indian Constitution'?","options":["B. R. Ambedkar","Jawaharlal Nehru","Sardar Patel","Rajendra Prasad"],"correctIndex":0},
+      {"id":"gk_hard_7","questionText":"Which Indian state was formed on linguistic basis in 1956?","options":["Andhra Pradesh","Kerala","Maharashtra","Tamil Nadu"],"correctIndex":0},
+      {"id":"gk_hard_8","questionText":"Which is the largest desert in India?","options":["Thar","Sahara","Gobi","Kalahari"],"correctIndex":0},
+      {"id":"gk_hard_9","questionText":"Which Indian river is also known as the 'Sorrow of Bihar'?","options":["Ganga","Kosi","Yamuna","Brahmaputra"],"correctIndex":1},
+      {"id":"gk_hard_10","questionText":"Which Indian freedom fighter was known as 'Netaji'?","options":["Mahatma Gandhi","Bhagat Singh","Subhash Chandra Bose","Jawaharlal Nehru"],"correctIndex":2}
     ]
   },
   "Science": {
-    "easy": [
-      {
-        "id": "sci_easy_1",
-        "questionText": "What planet is known as the Red Planet?",
-        "options": ["Earth", "Mars", "Jupiter", "Venus"],
-        "correctIndex": 1
-      },
-      {
-        "id": "sci_easy_2",
-        "questionText": "Which gas do plants absorb from the atmosphere for photosynthesis?",
-        "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Helium"],
-        "correctIndex": 2
-      },
-      {
-        "id": "sci_easy_3",
-        "questionText": "Water freezes at what temperature on the Celsius scale?",
-        "options": ["0°C", "25°C", "50°C", "100°C"],
-        "correctIndex": 0
-      },
-      {
-        "id": "sci_easy_4",
-        "questionText": "Which part of the plant conducts photosynthesis?",
-        "options": ["Root", "Stem", "Leaf", "Flower"],
-        "correctIndex": 2
-      },
-      {
-        "id": "sci_easy_5",
-        "questionText": "Which organ pumps blood throughout the human body?",
-        "options": ["Lungs", "Heart", "Brain", "Liver"],
-        "correctIndex": 1
-      }
+    "easy":[
+      {"id":"sci_easy_1","questionText":"What planet is known as the Red Planet?","options":["Earth","Mars","Jupiter","Venus"],"correctIndex":1},
+      {"id":"sci_easy_2","questionText":"Which gas do plants absorb from the atmosphere for photosynthesis?","options":["Oxygen","Nitrogen","Carbon dioxide","Helium"],"correctIndex":2},
+      {"id":"sci_easy_3","questionText":"Water freezes at what temperature on the Celsius scale?","options":["0°C","25°C","50°C","100°C"],"correctIndex":0},
+      {"id":"sci_easy_4","questionText":"Which part of the plant conducts photosynthesis?","options":["Root","Stem","Leaf","Flower"],"correctIndex":2},
+      {"id":"sci_easy_5","questionText":"Which organ pumps blood throughout the human body?","options":["Lungs","Heart","Brain","Liver"],"correctIndex":1},
+      {"id":"sci_easy_6","questionText":"What is the boiling point of water at sea level?","options":["50°C","75°C","100°C","150°C"],"correctIndex":2},
+      {"id":"sci_easy_7","questionText":"Which planet is closest to Earth?","options":["Mars","Venus","Jupiter","Saturn"],"correctIndex":1},
+      {"id":"sci_easy_8","questionText":"What is the chemical symbol for water?","options":["H2O","O2","CO2","HO"],"correctIndex":0},
+      {"id":"sci_easy_9","questionText":"Which organ is responsible for breathing?","options":["Heart","Lungs","Kidney","Liver"],"correctIndex":1},
+      {"id":"sci_easy_10","questionText":"Which natural source provides vitamin D?","options":["Water","Sunlight","Air","Soil"],"correctIndex":1}
     ],
-    "medium": [
-      {
-        "id": "sci_med_1",
-        "questionText": "Which vitamin is produced in the skin when exposed to sunlight?",
-        "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
-        "correctIndex": 2
-      },
-      {
-        "id": "sci_med_2",
-        "questionText": "What is the chemical formula of water?",
-        "options": ["CO2", "H2O", "O2", "NaCl"],
-        "correctIndex": 1
-      },
-      {
-        "id": "sci_med_3",
-        "questionText": "Which of these is a non-renewable source of energy?",
-        "options": ["Solar energy", "Wind energy", "Coal", "Hydro power"],
-        "correctIndex": 2
-      },
-      {
-        "id": "sci_med_4",
-        "questionText": "The unit of electric current is:",
-        "options": ["Volt", "Ampere", "Ohm", "Watt"],
-        "correctIndex": 1
-      },
-      {
-        "id": "sci_med_5",
-        "questionText": "Which scientist proposed the three laws of planetary motion?",
-        "options": ["Isaac Newton", "Galileo Galilei", "Johannes Kepler", "Albert Einstein"],
-        "correctIndex": 2
-      }
+    "medium":[
+      {"id":"sci_med_1","questionText":"Which vitamin is produced in the skin when exposed to sunlight?","options":["Vitamin A","Vitamin C","Vitamin D","Vitamin K"],"correctIndex":2},
+      {"id":"sci_med_2","questionText":"What is the chemical formula of water?","options":["CO2","H2O","O2","NaCl"],"correctIndex":1},
+      {"id":"sci_med_3","questionText":"Which of these is a non-renewable source of energy?","options":["Solar energy","Wind energy","Coal","Hydro power"],"correctIndex":2},
+      {"id":"sci_med_4","questionText":"The unit of electric current is:","options":["Volt","Ampere","Ohm","Watt"],"correctIndex":1},
+      {"id":"sci_med_5","questionText":"Which scientist proposed the three laws of planetary motion?","options":["Isaac Newton","Galileo Galilei","Johannes Kepler","Albert Einstein"],"correctIndex":2},
+      {"id":"sci_med_6","questionText":"Which part of the human body produces insulin?","options":["Liver","Pancreas","Kidney","Heart"],"correctIndex":1},
+      {"id":"sci_med_7","questionText":"Which element has the chemical symbol 'O'?","options":["Gold","Oxygen","Osmium","Oxide"],"correctIndex":1},
+      {"id":"sci_med_8","questionText":"Which planet has the largest diameter?","options":["Earth","Jupiter","Saturn","Neptune"],"correctIndex":1},
+      {"id":"sci_med_9","questionText":"What is the main gas in Earth's atmosphere?","options":["Oxygen","Nitrogen","Carbon Dioxide","Hydrogen"],"correctIndex":1},
+      {"id":"sci_med_10","questionText":"Which part of the cell controls its activities?","options":["Nucleus","Cytoplasm","Membrane","Mitochondria"],"correctIndex":0}
     ],
-    "hard": [
-      {
-        "id": "sci_hard_1",
-        "questionText": "Which subatomic particle has a negative charge?",
-        "options": ["Proton", "Neutron", "Electron", "Positron"],
-        "correctIndex": 2
-      },
-      {
-        "id": "sci_hard_2",
-        "questionText": "Which branch of science deals with the study of heredity and variation?",
-        "options": ["Ecology", "Genetics", "Anatomy", "Physiology"],
-        "correctIndex": 1
-      },
-      {
-        "id": "sci_hard_3",
-        "questionText": "Which law states that pressure is inversely proportional to volume at constant temperature?",
-        "options": ["Ohm's Law", "Boyle's Law", "Hooke's Law", "Charles's Law"],
-        "correctIndex": 1
-      },
-      {
-        "id": "sci_hard_4",
-        "questionText": "The SI unit of force is:",
-        "options": ["Joule", "Newton", "Pascal", "Tesla"],
-        "correctIndex": 1
-      },
-      {
-        "id": "sci_hard_5",
-        "questionText": "Which part of the cell is known as the 'powerhouse of the cell'?",
-        "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi apparatus"],
-        "correctIndex": 2
-      }
+    "hard":[
+      {"id":"sci_hard_1","questionText":"Which subatomic particle has a negative charge?","options":["Proton","Neutron","Electron","Positron"],"correctIndex":2},
+      {"id":"sci_hard_2","questionText":"Which branch of science deals with the study of heredity and variation?","options":["Ecology","Genetics","Anatomy","Physiology"],"correctIndex":1},
+      {"id":"sci_hard_3","questionText":"Which law states that pressure is inversely proportional to volume at constant temperature?","options":["Ohm's Law","Boyle's Law","Hooke's Law","Charles's Law"],"correctIndex":1},
+      {"id":"sci_hard_4","questionText":"The SI unit of force is:","options":["Joule","Newton","Pascal","Tesla"],"correctIndex":1},
+      {"id":"sci_hard_5","questionText":"Which part of the cell is known as the 'powerhouse of the cell'?","options":["Nucleus","Ribosome","Mitochondria","Golgi apparatus"],"correctIndex":2},
+      {"id":"sci_hard_6","questionText":"Which is the hardest natural substance on Earth?","options":["Gold","Diamond","Iron","Quartz"],"correctIndex":1},
+      {"id":"sci_hard_7","questionText":"Which gas is essential for respiration?","options":["Nitrogen","Oxygen","Carbon Dioxide","Hydrogen"],"correctIndex":1},
+      {"id":"sci_hard_8","questionText":"Which scientist discovered the electron?","options":["Rutherford","Thomson","Einstein","Curie"],"correctIndex":1},
+      {"id":"sci_hard_9","questionText":"Which law explains the relationship between voltage, current, and resistance?","options":["Newton's Law","Ohm's Law","Faraday's Law","Hooke's Law"],"correctIndex":1},
+      {"id":"sci_hard_10","questionText":"Which is the lightest gas?","options":["Hydrogen","Helium","Oxygen","Nitrogen"],"correctIndex":0}
     ]
   },
   "Mathematics": {
-    "easy": [
-      {
-        "id": "math_easy_1",
-        "questionText": "What is 7 + 5?",
-        "options": ["10", "11", "12", "13"],
-        "correctIndex": 2
-      },
-      {
-        "id": "math_easy_2",
-        "questionText": "What is 9 × 3?",
-        "options": ["18", "21", "24", "27"],
-        "correctIndex": 1
-      },
-      {
-        "id": "math_easy_3",
-        "questionText": "What is half of 100?",
-        "options": ["25", "40", "50", "75"],
-        "correctIndex": 2
-      },
-      {
-        "id": "math_easy_4",
-        "questionText": "Which of these is an even number?",
-        "options": ["7", "11", "14", "19"],
-        "correctIndex": 2
-      },
-      {
-        "id": "math_easy_5",
-        "questionText": "What is 15 − 6?",
-        "options": ["7", "8", "9", "10"],
-        "correctIndex": 2
-      }
+    "easy":[
+      {"id":"math_easy_1","questionText":"What is 7 + 5?","options":["11","12","13","14"],"correctIndex":1},
+      {"id":"math_easy_2","questionText":"What is 9 x 3?","options":["27","26","30","24"],"correctIndex":0},
+      {"id":"math_easy_3","questionText":"What is 15 ÷ 5?","options":["2","3","4","5"],"correctIndex":1},
+      {"id":"math_easy_4","questionText":"What is the square of 6?","options":["36","12","30","16"],"correctIndex":0},
+      {"id":"math_easy_5","questionText":"What is 10 - 4?","options":["5","6","7","4"],"correctIndex":1},
+      {"id":"math_easy_6","questionText":"What is 2 + 3 x 4?","options":["20","14","10","18"],"correctIndex":1},
+      {"id":"math_easy_7","questionText":"What is the square root of 49?","options":["6","7","8","9"],"correctIndex":1},
+      {"id":"math_easy_8","questionText":"What is 0 x 8?","options":["0","8","1","None"],"correctIndex":0},
+      {"id":"math_easy_9","questionText":"What is 100 ÷ 10?","options":["5","10","15","20"],"correctIndex":1},
+      {"id":"math_easy_10","questionText":"What is 5 + 5?","options":["9","10","11","12"],"correctIndex":1}
     ],
-    "medium": [
-      {
-        "id": "math_med_1",
-        "questionText": "What is the value of 6²?",
-        "options": ["12", "18", "24", "36"],
-        "correctIndex": 3
-      },
-      {
-        "id": "math_med_2",
-        "questionText": "If a triangle has sides 3, 4, and 5, it is a:",
-        "options": ["Right triangle", "Equilateral triangle", "Isosceles triangle", "Obtuse triangle"],
-        "correctIndex": 0
-      },
-      {
-        "id": "math_med_3",
-        "questionText": "What is the simple interest on Rs. 1000 at 10% per annum for 2 years?",
-        "options": ["Rs. 100", "Rs. 150", "Rs. 200", "Rs. 250"],
-        "correctIndex": 2
-      },
-      {
-        "id": "math_med_4",
-        "questionText": "The value of π (pi) is approximately:",
-        "options": ["2.14", "3.14", "3.41", "4.13"],
-        "correctIndex": 1
-      },
-      {
-        "id": "math_med_5",
-        "questionText": "If 5x = 20, what is x?",
-        "options": ["2", "3", "4", "5"],
-        "correctIndex": 2
-      }
+    "medium":[
+      {"id":"math_med_1","questionText":"What is 25 x 4?","options":["100","90","110","80"],"correctIndex":0},
+      {"id":"math_med_2","questionText":"What is the cube of 3?","options":["9","27","18","21"],"correctIndex":1},
+      {"id":"math_med_3","questionText":"What is 144 ÷ 12?","options":["10","11","12","13"],"correctIndex":2},
+      {"id":"math_med_4","questionText":"Solve: 2x + 5 = 13","options":["4","3","5","6"],"correctIndex":0},
+      {"id":"math_med_5","questionText":"What is 15% of 200?","options":["25","30","35","40"],"correctIndex":1},
+      {"id":"math_med_6","questionText":"What is 0.5 + 0.25?","options":["0.75","0.7","0.8","1"],"correctIndex":0},
+      {"id":"math_med_7","questionText":"The sum of angles in a triangle is:","options":["180°","90°","360°","270°"],"correctIndex":0},
+      {"id":"math_med_8","questionText":"If x = 5, what is 3x + 2?","options":["15","17","20","10"],"correctIndex":1},
+      {"id":"math_med_9","questionText":"What is the perimeter of a square with side 6?","options":["12","18","24","36"],"correctIndex":2},
+      {"id":"math_med_10","questionText":"What is 7 x 8?","options":["54","56","48","60"],"correctIndex":1}
     ],
-    "hard": [
-      {
-        "id": "math_hard_1",
-        "questionText": "The derivative of x² with respect to x is:",
-        "options": ["x", "2x", "x²", "2"],
-        "correctIndex": 1
-      },
-      {
-        "id": "math_hard_2",
-        "questionText": "If sinθ = 1, what is the value of θ (in degrees)?",
-        "options": ["30°", "45°", "60°", "90°"],
-        "correctIndex": 3
-      },
-      {
-        "id": "math_hard_3",
-        "questionText": "The area under a velocity-time graph represents:",
-        "options": ["Distance", "Acceleration", "Force", "Power"],
-        "correctIndex": 0
-      },
-      {
-        "id": "math_hard_4",
-        "questionText": "What is the sum of interior angles of a hexagon?",
-        "options": ["360°", "540°", "720°", "900°"],
-        "correctIndex": 2
-      },
-      {
-        "id": "math_hard_5",
-        "questionText": "If the matrix A is 2×3 and B is 3×4, the product AB will be of order:",
-        "options": ["2×3", "3×2", "2×4", "3×4"],
-        "correctIndex": 2
-      }
-    ]
+    "hard":[
+      {"id":"math_hard_1","questionText":"What is the derivative of x²?","options":["x","2x","x²","2"],"correctIndex":1},
+      {"id":"math_hard_2","questionText":"What is the integral of 2x dx?","options":["x² + C","2x + C","x + C","x²/2 + C"],"correctIndex":0},
+      {"id":"math_hard_3","questionText":"Solve: 2x² - 8 = 0","options":["x=2","x=-2","x=±2","x=4"],"correctIndex":2},
+      {"id":"math_hard_4","questionText":"What is the value of sin 90°?","options":["0","0.5","1","√2"],"correctIndex":2},
+      {"id":"math_hard_5","questionText":"What is log10 1000?","options":["2","3","10","100"],"correctIndex":1},
+      {"id":"math_hard_6","questionText":"What is the sum of first 50 natural numbers?","options":["1225","1275","1250","1300"],"correctIndex":0},
+      {"id":"math_hard_7","questionText":"If a² - b² = (a-b)(a+b), then a² - 9 = ?","options":["(a-3)(a+3)","(a-2)(a+4)","(a-1)(a+9)","(a-9)(a+1)"],"correctIndex":0},
+      {"id":"math_hard_8","questionText":"What is 2^5?","options":["32","16","64","25"],"correctIndex":0},
+      {"id":"math_hard_9","questionText":"The sum of interior angles of a hexagon is:","options":["540°","720°","360°","600°"],"correctIndex":1},
+      {"id":"math_hard_10","questionText":"If f(x) = 3x + 2, find f⁻¹(x).","options":["(x-2)/3","(x+2)/3","3x-2","3x+2"],"correctIndex":0}
+    ],
   },
-  "Computer Basics": {
-    "easy": [
-      {
-        "id": "cb_easy_1",
-        "questionText": "What does CPU stand for?",
-        "options": ["Central Process Unit", "Central Processing Unit", "Control Processing Unit", "Computer Personal Unit"],
-        "correctIndex": 1
-      },
-      {
-        "id": "cb_easy_2",
-        "questionText": "Which device is used to print on paper?",
-        "options": ["Monitor", "Scanner", "Printer", "Keyboard"],
-        "correctIndex": 2
-      },
-      {
-        "id": "cb_easy_3",
-        "questionText": "Which of these is an input device?",
-        "options": ["Printer", "Monitor", "Mouse", "Speaker"],
-        "correctIndex": 2
-      },
-      {
-        "id": "cb_easy_4",
-        "questionText": "Which memory is known as primary memory?",
-        "options": ["Hard Disk", "RAM", "Pen Drive", "CD-ROM"],
-        "correctIndex": 1
-      },
-      {
-        "id": "cb_easy_5",
-        "questionText": "Which key is used to delete characters to the left of the cursor?",
-        "options": ["Delete", "Backspace", "Shift", "Ctrl"],
-        "correctIndex": 1
-      }
-    ],
-    "medium": [
-      {
-        "id": "cb_med_1",
-        "questionText": "Which of these is an example of system software?",
-        "options": ["MS Word", "Windows OS", "Tally", "PowerPoint"],
-        "correctIndex": 1
-      },
-      {
-        "id": "cb_med_2",
-        "questionText": "Which communication device is used to connect a computer to the Internet?",
-        "options": ["Router", "Scanner", "Projector", "Printer"],
-        "correctIndex": 0
-      },
-      {
-        "id": "cb_med_3",
-        "questionText": "Which of the following is a volatile memory?",
-        "options": ["Hard Disk", "ROM", "RAM", "Pen Drive"],
-        "correctIndex": 2
-      },
-      {
-        "id": "cb_med_4",
-        "questionText": "Which term refers to the physical parts of a computer?",
-        "options": ["Software", "Hardware", "Firmware", "Malware"],
-        "correctIndex": 1
-      },
-      {
-        "id": "cb_med_5",
-        "questionText": "What does GUI stand for?",
-        "options": ["Graphical User Interface", "Global User Internet", "General Utility Input", "Graphical Unified Icon"],
-        "correctIndex": 0
-      }
-    ],
-    "hard": [
-      {
-        "id": "cb_hard_1",
-        "questionText": "Which of the following is a type of non-volatile memory that can be electrically erased and reprogrammed?",
-        "options": ["SRAM", "DRAM", "Flash Memory", "Cache Memory"],
-        "correctIndex": 2
-      },
-      {
-        "id": "cb_hard_2",
-        "questionText": "Which bus carries the actual data between processor and memory?",
-        "options": ["Address bus", "Control bus", "Data bus", "Local bus"],
-        "correctIndex": 2
-      },
-      {
-        "id": "cb_hard_3",
-        "questionText": "The smallest addressable unit of data in a computer is:",
-        "options": ["Bit", "Byte", "Word", "Nibble"],
-        "correctIndex": 1
-      },
-      {
-        "id": "cb_hard_4",
-        "questionText": "Which of these represents the speed of a processor?",
-        "options": ["Hz", "Mbps", "dpi", "RPM"],
-        "correctIndex": 0
-      },
-      {
-        "id": "cb_hard_5",
-        "questionText": "Which type of system typically uses RAID for data redundancy?",
-        "options": ["Small embedded systems", "High-availability servers", "Mobile phones", "IoT sensors"],
-        "correctIndex": 1
-      }
-    ]
-  },
-  "Programming Fundamentals": {
-    "easy": [
-      {
-        "id": "pf_easy_1",
-        "questionText": "Which symbol is used for single-line comments in C++?",
-        "options": ["//", "/*", "#", "--"],
-        "correctIndex": 0
-      },
-      {
-        "id": "pf_easy_2",
-        "questionText": "Which data type is used to store whole numbers in C?",
-        "options": ["float", "char", "int", "double"],
-        "correctIndex": 2
-      },
-      {
-        "id": "pf_easy_3",
-        "questionText": "Which of these is a looping statement?",
-        "options": ["if", "for", "switch", "break"],
-        "correctIndex": 1
-      },
-      {
-        "id": "pf_easy_4",
-        "questionText": "Which keyword is used to define a function in many languages like JavaScript and Python?",
-        "options": ["func", "define", "function", "fn"],
-        "correctIndex": 2
-      },
-      {
-        "id": "pf_easy_5",
-        "questionText": "Which of these operators is used for assignment?",
-        "options": ["=", "==", "!=", ">="],
-        "correctIndex": 0
-      }
-    ],
-    "medium": [
-      {
-        "id": "pf_med_1",
-        "questionText": "What will be the result of 7 % 3?",
-        "options": ["1", "2", "3", "4"],
-        "correctIndex": 1
-      },
-      {
-        "id": "pf_med_2",
-        "questionText": "Which of these is not a valid loop in C?",
-        "options": ["for", "while", "repeat", "do-while"],
-        "correctIndex": 2
-      },
-      {
-        "id": "pf_med_3",
-        "questionText": "Which statement is used to exit from a loop in C/C++?",
-        "options": ["exit", "stop", "break", "continue"],
-        "correctIndex": 2
-      },
-      {
-        "id": "pf_med_4",
-        "questionText": "An array index in most programming languages starts from:",
-        "options": ["-1", "0", "1", "2"],
-        "correctIndex": 1
-      },
-      {
-        "id": "pf_med_5",
-        "questionText": "Which of the following best describes a compiler?",
-        "options": ["Translates high-level code to machine code", "Executes code line by line", "Edits source code", "Compresses files"],
-        "correctIndex": 0
-      }
-    ],
-    "hard": [
-      {
-        "id": "pf_hard_1",
-        "questionText": "What is the time complexity of binary search in a sorted array?",
-        "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
-        "correctIndex": 1
-      },
-      {
-        "id": "pf_hard_2",
-        "questionText": "Which of these is a characteristic of a recursive function?",
-        "options": ["It cannot call itself", "It calls itself directly or indirectly", "It always runs faster", "It does not need a base case"],
-        "correctIndex": 1
-      },
-      {
-        "id": "pf_hard_3",
-        "questionText": "Which memory region typically stores local variables in most languages like C/C++?",
-        "options": ["Heap", "Stack", "Static area", "Register file"],
-        "correctIndex": 1
-      },
-      {
-        "id": "pf_hard_4",
-        "questionText": "In object-oriented programming, which concept allows using the same function name with different parameters?",
-        "options": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction"],
-        "correctIndex": 2
-      },
-      {
-        "id": "pf_hard_5",
-        "questionText": "Which of the following is NOT a programming paradigm?",
-        "options": ["Procedural", "Object-Oriented", "Functional", "Graphical"],
-        "correctIndex": 3
-      }
-    ]
-  },
-  "Current Affairs": {
-    "easy": [
-      {
-        "id": "ca_easy_1",
-        "questionText": "Which international organization is responsible for maintaining international peace and security?",
-        "options": ["UNESCO", "UNICEF", "United Nations Security Council", "WHO"],
-        "correctIndex": 2
-      },
-      {
-        "id": "ca_easy_2",
-        "questionText": "Which day is observed as World Environment Day?",
-        "options": ["5 June", "22 April", "15 July", "1 December"],
-        "correctIndex": 0
-      },
-      {
-        "id": "ca_easy_3",
-        "questionText": "Which country is known as the 'Land of the Rising Sun'?",
-        "options": ["China", "Japan", "South Korea", "Thailand"],
-        "correctIndex": 1
-      },
-      {
-        "id": "ca_easy_4",
-        "questionText": "Which organization is known for providing loans to developing countries for development projects?",
-        "options": ["World Bank", "UNICEF", "NATO", "Interpol"],
-        "correctIndex": 0
-      },
-      {
-        "id": "ca_easy_5",
-        "questionText": "Which Indian city is often called the 'Financial Capital of India'?",
-        "options": ["Delhi", "Mumbai", "Kolkata", "Bengaluru"],
-        "correctIndex": 1
-      }
-    ],
-    "medium": [
-      {
-        "id": "ca_med_1",
-        "questionText": "Which intergovernmental organization is focused on climate change and global warming agreements?",
-        "options": ["WTO", "IPCC/UNFCCC process", "ASEAN", "SAARC"],
-        "correctIndex": 1
-      },
-      {
-        "id": "ca_med_2",
-        "questionText": "Which summit is primarily associated with major industrialized nations discussing global economic issues?",
-        "options": ["G20 Summit", "NAM Summit", "BRICS Summit", "OPEC Meeting"],
-        "correctIndex": 0
-      },
-      {
-        "id": "ca_med_3",
-        "questionText": "Which Indian body conducts national-level competitive examinations like Civil Services Examination?",
-        "options": ["SSC", "UPSC", "IBPS", "NTA"],
-        "correctIndex": 1
-      },
-      {
-        "id": "ca_med_4",
-        "questionText": "Which space agency launched the Hubble Space Telescope?",
-        "options": ["ISRO", "ESA", "Roscosmos", "NASA"],
-        "correctIndex": 3
-      },
-      {
-        "id": "ca_med_5",
-        "questionText": "Which of the following is a global health organization?",
-        "options": ["WHO", "WTO", "IMF", "NATO"],
-        "correctIndex": 0
-      }
-    ],
-    "hard": [
-      {
-        "id": "ca_hard_1",
-        "questionText": "Which international agreement is aimed at limiting the increase in global average temperature?",
-        "options": ["Kyoto Protocol", "Paris Agreement", "Geneva Convention", "Rio Declaration"],
-        "correctIndex": 1
-      },
-      {
-        "id": "ca_hard_2",
-        "questionText": "Which global financial institution is responsible for maintaining international monetary cooperation and exchange rate stability?",
-        "options": ["World Bank", "International Monetary Fund", "Asian Development Bank", "New Development Bank"],
-        "correctIndex": 1
-      },
-      {
-        "id": "ca_hard_3",
-        "questionText": "The headquarters of the World Trade Organization (WTO) is located in:",
-        "options": ["Geneva", "New York", "Brussels", "London"],
-        "correctIndex": 0
-      },
-      {
-        "id": "ca_hard_4",
-        "questionText": "Which of the following is an Indian government initiative related to digital payments and financial inclusion?",
-        "options": ["Digital India", "Make in India", "Smart Cities Mission", "Swachh Bharat Abhiyan"],
-        "correctIndex": 0
-      },
-      {
-        "id": "ca_hard_5",
-        "questionText": "Which regional group includes Brazil, Russia, India, China and South Africa?",
-        "options": ["SAARC", "BRICS", "G7", "ASEAN"],
-        "correctIndex": 1
-      }
-    ]
-  },
-  "Sports": {
-    "easy": [
-      {
-        "id": "sport_easy_1",
-        "questionText": "How many players are there in a standard football (soccer) team on the field?",
-        "options": ["9", "10", "11", "12"],
-        "correctIndex": 2
-      },
-      {
-        "id": "sport_easy_2",
-        "questionText": "Which sport is associated with Wimbledon?",
-        "options": ["Cricket", "Hockey", "Tennis", "Football"],
-        "correctIndex": 2
-      },
-      {
-        "id": "sport_easy_3",
-        "questionText": "Which country is famous for the sport of sumo wrestling?",
-        "options": ["China", "Japan", "India", "Russia"],
-        "correctIndex": 1
-      },
-      {
-        "id": "sport_easy_4",
-        "questionText": "In cricket, how many runs are scored for hitting the ball over the boundary without bouncing?",
-        "options": ["4", "5", "6", "2"],
-        "correctIndex": 2
-      },
-      {
-        "id": "sport_easy_5",
-        "questionText": "Which game uses a shuttlecock?",
-        "options": ["Tennis", "Badminton", "Table Tennis", "Squash"],
-        "correctIndex": 1
-      }
-    ],
-    "medium": [
-      {
-        "id": "sport_med_1",
-        "questionText": "Which country has hosted the Olympic Games the most number of times?",
-        "options": ["USA", "China", "Japan", "Germany"],
-        "correctIndex": 0
-      },
-      {
-        "id": "sport_med_2",
-        "questionText": "In chess, which piece can only move diagonally?",
-        "options": ["Rook", "Bishop", "Knight", "Queen"],
-        "correctIndex": 1
-      },
-      {
-        "id": "sport_med_3",
-        "questionText": "What is the length of a standard marathon race?",
-        "options": ["21.1 km", "30 km", "42.195 km", "50 km"],
-        "correctIndex": 2
-      },
-      {
-        "id": "sport_med_4",
-        "questionText": "Which sport uses terms like 'love', 'deuce', and 'ace'?",
-        "options": ["Badminton", "Tennis", "Table Tennis", "Squash"],
-        "correctIndex": 1
-      },
-      {
-        "id": "sport_med_5",
-        "questionText": "Which of these is a famous international football tournament?",
-        "options": ["NBA Finals", "FIFA World Cup", "Stanley Cup", "Ashes Series"],
-        "correctIndex": 1
-      }
-    ],
-    "hard": [
-      {
-        "id": "sport_hard_1",
-        "questionText": "How many players are there in a standard volleyball team on the court?",
-        "options": ["5", "6", "7", "9"],
-        "correctIndex": 1
-      },
-      {
-        "id": "sport_hard_2",
-        "questionText": "In cricket, what does LBW stand for?",
-        "options": ["Leg Before Wicket", "Long Batting Wicket", "Left Batsman Wide", "Leg Behind Wicket"],
-        "correctIndex": 0
-      },
-      {
-        "id": "sport_hard_3",
-        "questionText": "Which country is traditionally strong in the sport of ice hockey?",
-        "options": ["India", "Canada", "Brazil", "Kenya"],
-        "correctIndex": 1
-      },
-      {
-        "id": "sport_hard_4",
-        "questionText": "Which sport includes events like the 100m dash, long jump, and shot put?",
-        "options": ["Gymnastics", "Athletics (Track and Field)", "Swimming", "Boxing"],
-        "correctIndex": 1
-      },
-      {
-        "id": "sport_hard_5",
-        "questionText": "In badminton, what is the maximum number of points in a standard game?",
-        "options": ["15", "21", "25", "30"],
-        "correctIndex": 1
-      }
-    ]
-  },
-  "Movies & Entertainment": {
-    "easy": [
-      {
-        "id": "me_easy_1",
-        "questionText": "Which Indian film industry is popularly known as Bollywood?",
-        "options": ["Tamil", "Telugu", "Hindi", "Kannada"],
-        "correctIndex": 2
-      },
-      {
-        "id": "me_easy_2",
-        "questionText": "Which superhero is also known as the 'Dark Knight'?",
-        "options": ["Superman", "Batman", "Spider-Man", "Iron Man"],
-        "correctIndex": 1
-      },
-      {
-        "id": "me_easy_3",
-        "questionText": "Which device is commonly used to listen to music?",
-        "options": ["Printer", "Headphones", "Scanner", "Keyboard"],
-        "correctIndex": 1
-      },
-      {
-        "id": "me_easy_4",
-        "questionText": "Which of these is an animated movie?",
-        "options": ["Inception", "Toy Story", "Titanic", "The Godfather"],
-        "correctIndex": 1
-      },
-      {
-        "id": "me_easy_5",
-        "questionText": "Which of these is a popular music streaming platform?",
-        "options": ["Spotify", "MS Word", "Google Docs", "GitHub"],
-        "correctIndex": 0
-      }
-    ],
-    "medium": [
-      {
-        "id": "me_med_1",
-        "questionText": "Who directed the movie 'Avatar'?",
-        "options": ["Steven Spielberg", "Christopher Nolan", "James Cameron", "Martin Scorsese"],
-        "correctIndex": 2
-      },
-      {
-        "id": "me_med_2",
-        "questionText": "Which award is considered the highest honor in the film industry?",
-        "options": ["Grammy", "Oscar (Academy Award)", "Golden Boot", "Pulitzer"],
-        "correctIndex": 1
-      },
-      {
-        "id": "me_med_3",
-        "questionText": "Which of these is NOT a movie genre?",
-        "options": ["Action", "Comedy", "Thriller", "Compiler"],
-        "correctIndex": 3
-      },
-      {
-        "id": "me_med_4",
-        "questionText": "Which Indian actor is known as the 'King of Bollywood'?",
-        "options": ["Aamir Khan", "Salman Khan", "Shah Rukh Khan", "Akshay Kumar"],
-        "correctIndex": 2
-      },
-      {
-        "id": "me_med_5",
-        "questionText": "Which of the following is a popular TV streaming service?",
-        "options": ["Netflix", "MS Excel", "Notepad", "Chrome DevTools"],
-        "correctIndex": 0
-      }
-    ],
-    "hard": [
-      {
-        "id": "me_hard_1",
-        "questionText": "Which movie series features the fictional school 'Hogwarts'?",
-        "options": ["Lord of the Rings", "Harry Potter", "Star Wars", "Pirates of the Caribbean"],
-        "correctIndex": 1
-      },
-      {
-        "id": "me_hard_2",
-        "questionText": "Which musical instrument typically has 88 keys?",
-        "options": ["Guitar", "Violin", "Piano", "Flute"],
-        "correctIndex": 2
-      },
-      {
-        "id": "me_hard_3",
-        "questionText": "Which language is primarily used in most Hollywood movies?",
-        "options": ["English", "Spanish", "French", "German"],
-        "correctIndex": 0
-      },
-      {
-        "id": "me_hard_4",
-        "questionText": "Which of these is a popular Indian music composer duo?",
-        "options": ["Sachin-Jigar", "Newton-Leibniz", "Raman-Naidu", "Sharma-Verma"],
-        "correctIndex": 0
-      },
-      {
-        "id": "me_hard_5",
-        "questionText": "Which film award is specific to Indian cinema?",
-        "options": ["BAFTA", "Golden Globe", "National Film Award (India)", "Cannes Palm d'Or"],
-        "correctIndex": 2
-      }
-    ]
-  },
-  "Geography": {
-    "easy": [
-      {
-        "id": "geo_easy_1",
-        "questionText": "Which is the largest ocean on Earth?",
-        "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
-        "correctIndex": 2
-      },
-      {
-        "id": "geo_easy_2",
-        "questionText": "Which direction does the sun rise in?",
-        "options": ["North", "South", "East", "West"],
-        "correctIndex": 2
-      },
-      {
-        "id": "geo_easy_3",
-        "questionText": "What is the capital of France?",
-        "options": ["Berlin", "Rome", "Paris", "Madrid"],
-        "correctIndex": 2
-      },
-      {
-        "id": "geo_easy_4",
-        "questionText": "Which is the largest desert in the world?",
-        "options": ["Sahara", "Thar", "Gobi", "Kalahari"],
-        "correctIndex": 0
-      },
-      {
-        "id": "geo_easy_5",
-        "questionText": "Which continent is India located in?",
-        "options": ["Africa", "Europe", "Asia", "Australia"],
-        "correctIndex": 2
-      }
-    ],
-    "medium": [
-      {
-        "id": "geo_med_1",
-        "questionText": "Which river is known as the 'Ganga of the South' in India?",
-        "options": ["Godavari", "Krishna", "Cauvery", "Narmada"],
-        "correctIndex": 2
-      },
-      {
-        "id": "geo_med_2",
-        "questionText": "Mount Everest lies on the border between which two countries?",
-        "options": ["India and China", "India and Nepal", "China and Nepal", "Bhutan and China"],
-        "correctIndex": 2
-      },
-      {
-        "id": "geo_med_3",
-        "questionText": "Which country has the largest population in the world?",
-        "options": ["USA", "India", "China", "Russia"],
-        "correctIndex": 2
-      },
-      {
-        "id": "geo_med_4",
-        "questionText": "Which of these is a landlocked country?",
-        "options": ["Japan", "Sri Lanka", "Nepal", "Indonesia"],
-        "correctIndex": 2
-      },
-      {
-        "id": "geo_med_5",
-        "questionText": "The Tropic of Cancer passes through which of these Indian states?",
-        "options": ["Kerala", "Rajasthan", "Punjab", "Tamil Nadu"],
-        "correctIndex": 1
-      }
-    ],
-    "hard": [
-      {
-        "id": "geo_hard_1",
-        "questionText": "Which line divides the Earth into the Northern and Southern Hemispheres?",
-        "options": ["Prime Meridian", "Equator", "Tropic of Cancer", "Tropic of Capricorn"],
-        "correctIndex": 1
-      },
-      {
-        "id": "geo_hard_2",
-        "questionText": "Which ocean lies to the west of India?",
-        "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
-        "correctIndex": 2
-      },
-      {
-        "id": "geo_hard_3",
-        "questionText": "Which country has the longest coastline in the world?",
-        "options": ["Australia", "Russia", "Canada", "USA"],
-        "correctIndex": 2
-      },
-      {
-        "id": "geo_hard_4",
-        "questionText": "Which African country is known as the 'Rainbow Nation'?",
-        "options": ["Nigeria", "South Africa", "Kenya", "Egypt"],
-        "correctIndex": 1
-      },
-      {
-        "id": "geo_hard_5",
-        "questionText": "Which mountain range forms a natural boundary between Europe and Asia?",
-        "options": ["Alps", "Himalayas", "Ural Mountains", "Andes"],
-        "correctIndex": 2
-      }
-    ]
-  },
-  "History": {
-    "easy": [
-      {
-        "id": "hist_easy_1",
-        "questionText": "Who is known as the 'Father of the Nation' in India?",
-        "options": ["Jawaharlal Nehru", "Subhash Chandra Bose", "Mahatma Gandhi", "Bhagat Singh"],
-        "correctIndex": 2
-      },
-      {
-        "id": "hist_easy_2",
-        "questionText": "Who was the first President of India?",
-        "options": ["Dr. Rajendra Prasad", "Dr. S. Radhakrishnan", "Dr. Zakir Hussain", "V. V. Giri"],
-        "correctIndex": 0
-      },
-      {
-        "id": "hist_easy_3",
-        "questionText": "The Taj Mahal was built by which Mughal emperor?",
-        "options": ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"],
-        "correctIndex": 2
-      },
-      {
-        "id": "hist_easy_4",
-        "questionText": "In which year did India get independence?",
-        "options": ["1945", "1947", "1950", "1952"],
-        "correctIndex": 1
-      },
-      {
-        "id": "hist_easy_5",
-        "questionText": "Who was known as the 'Iron Man of India'?",
-        "options": ["Lal Bahadur Shastri", "Sardar Vallabhbhai Patel", "Rajendra Prasad", "Indira Gandhi"],
-        "correctIndex": 1
-      }
-    ],
-    "medium": [
-      {
-        "id": "hist_med_1",
-        "questionText": "Who was the first Prime Minister of independent India?",
-        "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Sardar Patel", "Rajendra Prasad"],
-        "correctIndex": 1
-      },
-      {
-        "id": "hist_med_2",
-        "questionText": "Which movement was launched by Mahatma Gandhi in 1942?",
-        "options": ["Non-Cooperation Movement", "Civil Disobedience Movement", "Quit India Movement", "Swadeshi Movement"],
-        "correctIndex": 2
-      },
-      {
-        "id": "hist_med_3",
-        "questionText": "Who founded the Maurya Empire in India?",
-        "options": ["Ashoka", "Chandragupta Maurya", "Bindusara", "Harsha"],
-        "correctIndex": 1
-      },
-      {
-        "id": "hist_med_4",
-        "questionText": "The Battle of Plassey was fought in which year?",
-        "options": ["1757", "1764", "1857", "1919"],
-        "correctIndex": 0
-      },
-      {
-        "id": "hist_med_5",
-        "questionText": "Who was the first woman Prime Minister of India?",
-        "options": ["Sarojini Naidu", "Indira Gandhi", "Pratibha Patil", "Sushma Swaraj"],
-        "correctIndex": 1
-      }
-    ],
-    "hard": [
-      {
-        "id": "hist_hard_1",
-        "questionText": "Who was the last Viceroy of British India?",
-        "options": ["Lord Wavell", "Lord Mountbatten", "Lord Curzon", "Lord Linlithgow"],
-        "correctIndex": 1
-      },
-      {
-        "id": "hist_hard_2",
-        "questionText": "Which Indian freedom fighter formed the Azad Hind Fauj (INA)?",
-        "options": ["Bhagat Singh", "Chandra Shekhar Azad", "Subhash Chandra Bose", "Lala Lajpat Rai"],
-        "correctIndex": 2
-      },
-      {
-        "id": "hist_hard_3",
-        "questionText": "During whose reign was the 'Din-i Ilahi' religious doctrine introduced?",
-        "options": ["Babur", "Humayun", "Akbar", "Aurangzeb"],
-        "correctIndex": 2
-      },
-      {
-        "id": "hist_hard_4",
-        "questionText": "Which famous ancient university in India attracted students from all over the world?",
-        "options": ["Nalanda University", "Oxford University", "Takshashila University", "Harvard University"],
-        "correctIndex": 0
-      },
-      {
-        "id": "hist_hard_5",
-        "questionText": "Which freedom movement is associated with the slogan 'Do or Die'?",
-        "options": ["Non-Cooperation Movement", "Quit India Movement", "Swadeshi Movement", "Dandi March"],
-        "correctIndex": 1
-      }
-    ]
-  }
+   "Computer Basics": {
+  "easy":[
+    {"id":"cb_easy_1","questionText":"What does CPU stand for?","options":["Central Process Unit","Central Processing Unit","Control Processing Unit","Computer Personal Unit"],"correctIndex":1},
+    {"id":"cb_easy_2","questionText":"Which device is used to print on paper?","options":["Monitor","Scanner","Printer","Keyboard"],"correctIndex":2},
+    {"id":"cb_easy_3","questionText":"Which of these is an input device?","options":["Printer","Monitor","Mouse","Speaker"],"correctIndex":2},
+    {"id":"cb_easy_4","questionText":"Which memory is known as primary memory?","options":["Hard Disk","RAM","Pen Drive","CD-ROM"],"correctIndex":1},
+    {"id":"cb_easy_5","questionText":"Which key is used to delete characters to the left of the cursor?","options":["Delete","Backspace","Shift","Ctrl"],"correctIndex":1},
+    {"id":"cb_easy_6","questionText":"Which device stores data permanently?","options":["RAM","ROM","Cache","Register"],"correctIndex":1},
+    {"id":"cb_easy_7","questionText":"Which device is used to display output?","options":["Keyboard","Monitor","Mouse","Printer"],"correctIndex":1},
+    {"id":"cb_easy_8","questionText":"Which device is used to capture images?","options":["Scanner","Monitor","Camera","Speaker"],"correctIndex":2},
+    {"id":"cb_easy_9","questionText":"Which is the brain of the computer?","options":["CPU","RAM","GPU","Hard Disk"],"correctIndex":0},
+    {"id":"cb_easy_10","questionText":"Which of these is secondary storage?","options":["ROM","RAM","Hard Disk","Cache"],"correctIndex":2}
+  ],
+  "medium":[
+    {"id":"cb_med_1","questionText":"Which of these is an example of system software?","options":["MS Word","Windows OS","Tally","PowerPoint"],"correctIndex":1},
+    {"id":"cb_med_2","questionText":"Which communication device is used to connect a computer to the Internet?","options":["Router","Scanner","Projector","Printer"],"correctIndex":0},
+    {"id":"cb_med_3","questionText":"Which of the following is a volatile memory?","options":["Hard Disk","ROM","RAM","Pen Drive"],"correctIndex":2},
+    {"id":"cb_med_4","questionText":"Which term refers to the physical parts of a computer?","options":["Software","Hardware","Firmware","Malware"],"correctIndex":1},
+    {"id":"cb_med_5","questionText":"What does GUI stand for?","options":["Graphical User Interface","Global User Internet","General Utility Input","Graphical Unified Icon"],"correctIndex":0},
+    {"id":"cb_med_6","questionText":"Which device converts digital data to analog signal?","options":["Modem","Router","Switch","Hub"],"correctIndex":0},
+    {"id":"cb_med_7","questionText":"Which storage is faster?","options":["HDD","SSD","CD","DVD"],"correctIndex":1},
+    {"id":"cb_med_8","questionText":"Which protocol is used to send email?","options":["HTTP","SMTP","FTP","DNS"],"correctIndex":1},
+    {"id":"cb_med_9","questionText":"Which device is used to prevent power surges?","options":["UPS","Router","Switch","Hub"],"correctIndex":0},
+    {"id":"cb_med_10","questionText":"Which of these is open-source software?","options":["Windows","Linux","MacOS","MS Office"],"correctIndex":1}
+  ],
+  "hard":[
+    {"id":"cb_hard_1","questionText":"Which type of non-volatile memory can be electrically erased and reprogrammed?","options":["SRAM","DRAM","Flash Memory","Cache Memory"],"correctIndex":2},
+    {"id":"cb_hard_2","questionText":"Which bus carries the actual data between processor and memory?","options":["Address bus","Control bus","Data bus","Local bus"],"correctIndex":2},
+    {"id":"cb_hard_3","questionText":"The smallest addressable unit of data in a computer is:","options":["Bit","Byte","Word","Nibble"],"correctIndex":0},
+    {"id":"cb_hard_4","questionText":"Which type of memory is fastest?","options":["RAM","Cache","HDD","SSD"],"correctIndex":1},
+    {"id":"cb_hard_5","questionText":"Which type of system typically uses RAID for data redundancy?","options":["Small embedded systems","High-availability servers","Mobile phones","IoT sensors"],"correctIndex":1},
+    {"id":"cb_hard_6","questionText":"Which memory stores frequently used instructions to speed up CPU?","options":["RAM","Cache","ROM","Hard Disk"],"correctIndex":1},
+    {"id":"cb_hard_7","questionText":"Which programming language is primarily used for system programming?","options":["Python","C","Java","HTML"],"correctIndex":1},
+    {"id":"cb_hard_8","questionText":"Which component handles graphics processing in modern computers?","options":["CPU","GPU","RAM","ROM"],"correctIndex":1},
+    {"id":"cb_hard_9","questionText":"Which type of software is used to detect and remove malware?","options":["System Software","Application Software","Antivirus","Utility Software"],"correctIndex":2},
+    {"id":"cb_hard_10","questionText":"Which protocol ensures secure web communication?","options":["HTTP","HTTPS","FTP","SMTP"],"correctIndex":1}
+  ]
 }
+  "Programming Fundamentals": {
+  "easy":[
+    {"id":"pf_easy_1","questionText":"Which symbol is used to end a statement in most programming languages?","options":[".",";","!","/"],"correctIndex":1},
+    {"id":"pf_easy_2","questionText":"Which of these is a data type?","options":["int","loop","if","else"],"correctIndex":0},
+    {"id":"pf_easy_3","questionText":"What does IDE stand for?","options":["Integrated Development Environment","Internal Development Engine","Interactive Design Editor","Intelligent Debugging Environment"],"correctIndex":0},
+    {"id":"pf_easy_4","questionText":"Which keyword is used to define a function in Python?","options":["def","function","fun","define"],"correctIndex":0},
+    {"id":"pf_easy_5","questionText":"Which operator is used for addition?","options":["*","+","-","/"],"correctIndex":1},
+    {"id":"pf_easy_6","questionText":"Which of these is a loop structure?","options":["if","for","def","class"],"correctIndex":1},
+    {"id":"pf_easy_7","questionText":"Which symbol is used for comments in Python?","options":["#","//","/*","--"],"correctIndex":0},
+    {"id":"pf_easy_8","questionText":"Which of these is used to get input from a user in Python?","options":["cin","input()","scanf()","read()"],"correctIndex":1},
+    {"id":"pf_easy_9","questionText":"Which keyword is used for conditional branching?","options":["if","for","def","while"],"correctIndex":0},
+    {"id":"pf_easy_10","questionText":"Which of these is used to print output in Python?","options":["echo","print()","console.log","write()"],"correctIndex":1}
+  ],
+  "medium":[
+    {"id":"pf_med_1","questionText":"Which data structure stores elements in key-value pairs?","options":["Array","List","Dictionary","Tuple"],"correctIndex":2},
+    {"id":"pf_med_2","questionText":"Which of the following is mutable in Python?","options":["Tuple","String","List","Integer"],"correctIndex":2},
+    {"id":"pf_med_3","questionText":"Which operator is used for exponentiation in Python?","options":["^","**","%","$"],"correctIndex":1},
+    {"id":"pf_med_4","questionText":"Which loop executes at least once even if the condition is false?","options":["for","while","do-while","if"],"correctIndex":2},
+    {"id":"pf_med_5","questionText":"Which of these is used to handle exceptions?","options":["try-except","if-else","switch-case","loop"],"correctIndex":0},
+    {"id":"pf_med_6","questionText":"Which function returns the length of a list in Python?","options":["size()","length()","len()","count()"],"correctIndex":2},
+    {"id":"pf_med_7","questionText":"Which of these keywords is used to create a class?","options":["class","def","object","struct"],"correctIndex":0},
+    {"id":"pf_med_8","questionText":"Which statement is used to exit a loop in Python?","options":["exit","break","continue","stop"],"correctIndex":1},
+    {"id":"pf_med_9","questionText":"Which of these is a Python built-in function?","options":["append()","len()","insert()","remove()"],"correctIndex":1},
+    {"id":"pf_med_10","questionText":"Which symbol is used for logical AND in Python?","options":["&","&&","and","|"],"correctIndex":2}
+  ],
+  "hard":[
+    {"id":"pf_hard_1","questionText":"Which of these is immutable in Python?","options":["List","Dictionary","Tuple","Set"],"correctIndex":2},
+    {"id":"pf_hard_2","questionText":"Which function converts a string to an integer in Python?","options":["str()","int()","float()","chr()"],"correctIndex":1},
+    {"id":"pf_hard_3","questionText":"Which of the following is used for recursion?","options":["Loop","Function calling itself","Class","Variable"],"correctIndex":1},
+    {"id":"pf_hard_4","questionText":"Which of these is used to define an anonymous function?","options":["lambda","def","fun","anon"],"correctIndex":0},
+    {"id":"pf_hard_5","questionText":"Which module is used for regular expressions in Python?","options":["re","regex","expression","match"],"correctIndex":0},
+    {"id":"pf_hard_6","questionText":"Which operator is used for floor division in Python?","options":["/","//","%","**"],"correctIndex":1},
+    {"id":"pf_hard_7","questionText":"Which of these is used to create a virtual environment in Python?","options":["venv","env","virtualenv","pipenv"],"correctIndex":0},
+    {"id":"pf_hard_8","questionText":"Which of these methods adds an element at the end of a list?","options":["append()","insert()","extend()","add()"],"correctIndex":0},
+    {"id":"pf_hard_9","questionText":"Which keyword is used to inherit a class in Python?","options":["super","extends","inherits","base"],"correctIndex":0},
+    {"id":"pf_hard_10","questionText":"Which method removes and returns an element at a given index in a list?","options":["pop()","remove()","delete()","discard()"],"correctIndex":0}
+  ]
+}
+"Current Affairs": {
+  "easy":[
+    {"id":"ca_easy_1","questionText":"Who is the current Secretary-General of the United Nations?","options":["Antonio Guterres","Ban Ki-moon","Kofi Annan","Boutros Boutros-Ghali"],"correctIndex":0},
+    {"id":"ca_easy_2","questionText":"Which country recently hosted the G20 Summit?","options":["India","Indonesia","Japan","Italy"],"correctIndex":1},
+    {"id":"ca_easy_3","questionText":"Which city hosted the 2024 Summer Olympics?","options":["Paris","Tokyo","Los Angeles","London"],"correctIndex":0},
+    {"id":"ca_easy_4","questionText":"Which Indian state recently changed its official language policy?","options":["Uttar Pradesh","Kerala","Rajasthan","Maharashtra"],"correctIndex":3},
+    {"id":"ca_easy_5","questionText":"Which country recently launched a new space telescope?","options":["USA","China","Russia","India"],"correctIndex":0},
+    {"id":"ca_easy_6","questionText":"Who won the Nobel Peace Prize in 2025?","options":["Aung San Suu Kyi","Malala Yousafzai","David Beasley","Not announced"],"correctIndex":3},
+    {"id":"ca_easy_7","questionText":"Which country is leading the world in electric vehicle production?","options":["USA","China","Germany","Japan"],"correctIndex":1},
+    {"id":"ca_easy_8","questionText":"Which organization recently announced a new global climate initiative?","options":["UNEP","UNICEF","WHO","IMF"],"correctIndex":0},
+    {"id":"ca_easy_9","questionText":"Which Indian cricketer recently became the fastest to score 10,000 ODI runs?","options":["Virat Kohli","Rohit Sharma","MS Dhoni","Sachin Tendulkar"],"correctIndex":0},
+    {"id":"ca_easy_10","questionText":"Which country recently conducted a major anti-corruption campaign?","options":["Russia","China","India","Brazil"],"correctIndex":1}
+  ],
+  "medium":[
+    {"id":"ca_med_1","questionText":"Which country successfully landed a spacecraft on the Moon in 2025?","options":["USA","China","India","Russia"],"correctIndex":2},
+    {"id":"ca_med_2","questionText":"Which international organization recently set a new carbon emission target for 2035?","options":["UN","World Bank","IMF","WHO"],"correctIndex":0},
+    {"id":"ca_med_3","questionText":"Which Indian state recently became the first to achieve 100% vaccination coverage?","options":["Kerala","Maharashtra","Punjab","Gujarat"],"correctIndex":3},
+    {"id":"ca_med_4","questionText":"Which country hosted the COP30 climate conference in 2025?","options":["Egypt","India","UK","France"],"correctIndex":0},
+    {"id":"ca_med_5","questionText":"Who was appointed the new Chairperson of the WTO in 2025?","options":["Ngozi Okonjo-Iweala","Roberto Azevêdo","Dr. Hamid Mamdouh","Not yet announced"],"correctIndex":3},
+    {"id":"ca_med_6","questionText":"Which country won the 2025 ICC Cricket World Cup?","options":["India","Australia","England","New Zealand"],"correctIndex":1},
+    {"id":"ca_med_7","questionText":"Which tech company launched a revolutionary AI model in 2025?","options":["OpenAI","Google","Microsoft","Meta"],"correctIndex":0},
+    {"id":"ca_med_8","questionText":"Which country recently announced a plan to go fully renewable by 2050?","options":["Germany","USA","Norway","Japan"],"correctIndex":2},
+    {"id":"ca_med_9","questionText":"Which Indian city became the first 'smart city' to achieve zero waste status in 2025?","options":["Bengaluru","Pune","Ahmedabad","Surat"],"correctIndex":3},
+    {"id":"ca_med_10","questionText":"Which country recently signed a major trade agreement with the EU in 2025?","options":["India","Brazil","South Korea","Australia"],"correctIndex":0}
+  ],
+  "hard":[
+    {"id":"ca_hard_1","questionText":"Which space mission discovered water on an asteroid in 2025?","options":["OSIRIS-REx","Chandrayaan-3","Hayabusa2","Psyche"],"correctIndex":3},
+    {"id":"ca_hard_2","questionText":"Which country recently tested a hypersonic missile successfully in 2025?","options":["USA","China","Russia","North Korea"],"correctIndex":1},
+    {"id":"ca_hard_3","questionText":"Which global bank reduced its interest rate to historic lows in 2025?","options":["World Bank","IMF","European Central Bank","Bank of Japan"],"correctIndex":2},
+    {"id":"ca_hard_4","questionText":"Which UN agency launched a major program to combat cybercrime in 2025?","options":["UNICEF","UNODC","WHO","WTO"],"correctIndex":1},
+    {"id":"ca_hard_5","questionText":"Which breakthrough energy technology was successfully tested in 2025?","options":["Nuclear fusion","Solar panels","Wind turbines","Hydrogen cells"],"correctIndex":0},
+    {"id":"ca_hard_6","questionText":"Which country became the first to achieve net-zero carbon emissions in a major sector in 2025?","options":["Norway","Sweden","India","Germany"],"correctIndex":2},
+    {"id":"ca_hard_7","questionText":"Which AI system passed a complex human-level reasoning test in 2025?","options":["OpenAI GPT-5","Google DeepMind","IBM Watson","Meta AI"],"correctIndex":0},
+    {"id":"ca_hard_8","questionText":"Which Indian startup became the first unicorn in space technology sector in 2025?","options":["Pixxel","AgniKul","Bellatrix","Skyroot"],"correctIndex":0},
+    {"id":"ca_hard_9","questionText":"Which country launched the largest floating solar farm in 2025?","options":["India","China","Japan","USA"],"correctIndex":1},
+    {"id":"ca_hard_10","questionText":"Which landmark environmental treaty was ratified in 2025?","options":["Paris Agreement","Montreal Protocol","Glasgow Pact","Stockholm Convention"],"correctIndex":2}
+  ]
+}
+"Sports": {
+  "easy":[
+    {"id":"sports_easy_1","questionText":"Which country won the 2023 FIFA Women’s World Cup?","options":["USA","Spain","Germany","Brazil"],"correctIndex":1},
+    {"id":"sports_easy_2","questionText":"Who holds the record for the most Olympic gold medals?","options":["Michael Phelps","Usain Bolt","Carl Lewis","Simone Biles"],"correctIndex":0},
+    {"id":"sports_easy_3","questionText":"Which sport is known as the 'king of sports'?","options":["Basketball","Football","Cricket","Tennis"],"correctIndex":1},
+    {"id":"sports_easy_4","questionText":"Which Indian cricketer scored the highest individual score in ODI cricket?","options":["Virat Kohli","Rohit Sharma","MS Dhoni","Sachin Tendulkar"],"correctIndex":1},
+    {"id":"sports_easy_5","questionText":"In which sport is the term 'ace' commonly used?","options":["Tennis","Badminton","Football","Cricket"],"correctIndex":0},
+    {"id":"sports_easy_6","questionText":"Which country hosts the Wimbledon tennis tournament?","options":["USA","UK","Australia","France"],"correctIndex":1},
+    {"id":"sports_easy_7","questionText":"Which athlete is known as the 'Lightning Bolt'?","options":["Michael Phelps","Usain Bolt","Lionel Messi","Roger Federer"],"correctIndex":1},
+    {"id":"sports_easy_8","questionText":"Which country has won the most Rugby World Cups?","options":["New Zealand","Australia","South Africa","England"],"correctIndex":0},
+    {"id":"sports_easy_9","questionText":"In which game is a 'hat-trick' a common term?","options":["Hockey","Cricket","Football","All of the above"],"correctIndex":3},
+    {"id":"sports_easy_10","questionText":"Which Indian city hosted the 2010 Commonwealth Games?","options":["Delhi","Mumbai","Kolkata","Bangalore"],"correctIndex":0}
+  ],
+  "medium":[
+    {"id":"sports_med_1","questionText":"Who won the 2024 UEFA Champions League?","options":["Real Madrid","Manchester City","Barcelona","Bayern Munich"],"correctIndex":1},
+    {"id":"sports_med_2","questionText":"Which tennis player has the most Grand Slam singles titles in men’s category as of 2025?","options":["Roger Federer","Rafael Nadal","Novak Djokovic","Pete Sampras"],"correctIndex":2},
+    {"id":"sports_med_3","questionText":"Which Indian shooter won gold at the 2024 Olympics?","options":["Abhinav Bindra","Saurabh Chaudhary","Elavenil Valarivan","Rahi Sarnobat"],"correctIndex":1},
+    {"id":"sports_med_4","questionText":"Which country won the 2025 ICC Women’s T20 World Cup?","options":["Australia","India","England","New Zealand"],"correctIndex":0},
+    {"id":"sports_med_5","questionText":"Who holds the record for the fastest century in IPL history?","options":["Chris Gayle","AB de Villiers","Virat Kohli","Andre Russell"],"correctIndex":1},
+    {"id":"sports_med_6","questionText":"Which country won the 2024 Davis Cup in tennis?","options":["Spain","France","Croatia","USA"],"correctIndex":0},
+    {"id":"sports_med_7","questionText":"Which athlete holds the record for most Formula 1 World Championships?","options":["Lewis Hamilton","Michael Schumacher","Sebastian Vettel","Ayrton Senna"],"correctIndex":0},
+    {"id":"sports_med_8","questionText":"Who won the 2025 NBA Finals MVP award?","options":["LeBron James","Stephen Curry","Giannis Antetokounmpo","Joel Embiid"],"correctIndex":2},
+    {"id":"sports_med_9","questionText":"Which country won the 2024 Copa America?","options":["Argentina","Brazil","Chile","Uruguay"],"correctIndex":0},
+    {"id":"sports_med_10","questionText":"Who is the all-time leading scorer in international football as of 2025?","options":["Cristiano Ronaldo","Lionel Messi","Pele","Mokhtar Dahari"],"correctIndex":0}
+  ],
+  "hard":[
+    {"id":"sports_hard_1","questionText":"Which country hosted the 2025 World Athletics Championships?","options":["USA","Japan","Hungary","Kenya"],"correctIndex":2},
+    {"id":"sports_hard_2","questionText":"Which Indian badminton player won gold at the 2025 World Championships?","options":["PV Sindhu","Lakshya Sen","Kidambi Srikanth","Saina Nehwal"],"correctIndex":1},
+    {"id":"sports_hard_3","questionText":"Which team won the 2025 ICC Men’s T20 World Cup?","options":["India","Pakistan","England","Australia"],"correctIndex":3},
+    {"id":"sports_hard_4","questionText":"Who is the fastest man in the world in 2025 based on 100m sprint?","options":["Usain Bolt","Fred Kerley","Trayvon Bromell","Marcell Jacobs"],"correctIndex":1},
+    {"id":"sports_hard_5","questionText":"Which female gymnast won the all-around gold at the 2025 World Championships?","options":["Simone Biles","Rebeca Andrade","Jade Carey","Sunisa Lee"],"correctIndex":0},
+    {"id":"sports_hard_6","questionText":"Which country won the 2025 Rugby World Cup?","options":["New Zealand","South Africa","England","France"],"correctIndex":1},
+    {"id":"sports_hard_7","questionText":"Which city will host the 2028 Summer Olympics?","options":["Los Angeles","Paris","Tokyo","Sydney"],"correctIndex":0},
+    {"id":"sports_hard_8","questionText":"Who won the 2025 Wimbledon Men’s Singles title?","options":["Novak Djokovic","Carlos Alcaraz","Rafael Nadal","Daniil Medvedev"],"correctIndex":1},
+    {"id":"sports_hard_9","questionText":"Which country won the 2025 FIBA Basketball World Cup?","options":["USA","Spain","Australia","France"],"correctIndex":0},
+    {"id":"sports_hard_10","questionText":"Who holds the record for the most hat-tricks in international cricket as of 2025?","options":["Lasith Malinga","Shane Warne","Brett Lee","Muttiah Muralitharan"],"correctIndex":0}
+  ]
+}
+"Movies & Entertainment": {
+  "easy":[
+    {"id":"movies_easy_1","questionText":"Which movie won the Best Picture at the 2024 Oscars?","options":["Oppenheimer","Everything Everywhere All at Once","The Fabelmans","Avatar: The Way of Water"],"correctIndex":1},
+    {"id":"movies_easy_2","questionText":"Who played Iron Man in the Marvel Cinematic Universe?","options":["Chris Evans","Chris Hemsworth","Robert Downey Jr.","Mark Ruffalo"],"correctIndex":2},
+    {"id":"movies_easy_3","questionText":"Which animated movie features the song 'Let It Go'?","options":["Moana","Frozen","Tangled","Coco"],"correctIndex":1},
+    {"id":"movies_easy_4","questionText":"Who is known as the 'King of Bollywood'?","options":["Shah Rukh Khan","Amitabh Bachchan","Salman Khan","Hrithik Roshan"],"correctIndex":0},
+    {"id":"movies_easy_5","questionText":"Which film series features the character Jack Sparrow?","options":["Pirates of the Caribbean","Indiana Jones","Harry Potter","Lord of the Rings"],"correctIndex":0},
+    {"id":"movies_easy_6","questionText":"Which actor played Thor in the Marvel movies?","options":["Chris Hemsworth","Chris Pratt","Tom Hiddleston","Robert Downey Jr."],"correctIndex":0},
+    {"id":"movies_easy_7","questionText":"Which Netflix series is set in a fictional 1980s town called Hawkins?","options":["Stranger Things","The Umbrella Academy","13 Reasons Why","The Witcher"],"correctIndex":0},
+    {"id":"movies_easy_8","questionText":"Which movie features the song 'My Heart Will Go On'?","options":["Titanic","The Bodyguard","Moulin Rouge","La La Land"],"correctIndex":0},
+    {"id":"movies_easy_9","questionText":"Who directed the movie 'Inception'?","options":["Christopher Nolan","Steven Spielberg","James Cameron","Quentin Tarantino"],"correctIndex":0},
+    {"id":"movies_easy_10","questionText":"Which actor starred as Jack in the movie 'Titanic'?","options":["Leonardo DiCaprio","Brad Pitt","Tom Cruise","Johnny Depp"],"correctIndex":0}
+  ],
+  "medium":[
+    {"id":"movies_med_1","questionText":"Which film won the Best Animated Feature at the 2025 Oscars?","options":["Spider-Man: Into the Spider-Verse 2","Encanto","Soul","Turning Red"],"correctIndex":0},
+    {"id":"movies_med_2","questionText":"Who played the Joker in the 2019 movie 'Joker'?","options":["Heath Ledger","Joaquin Phoenix","Jared Leto","Jack Nicholson"],"correctIndex":1},
+    {"id":"movies_med_3","questionText":"Which actress played Wonder Woman in the 2017 movie?","options":["Gal Gadot","Scarlett Johansson","Brie Larson","Margot Robbie"],"correctIndex":0},
+    {"id":"movies_med_4","questionText":"Which movie is the highest-grossing film of all time as of 2025?","options":["Avatar: The Way of Water","Avengers: Endgame","Titanic","Star Wars: The Force Awakens"],"correctIndex":0},
+    {"id":"movies_med_5","questionText":"Which actor played the role of Deadpool?","options":["Ryan Reynolds","Chris Hemsworth","Hugh Jackman","Robert Downey Jr."],"correctIndex":0},
+    {"id":"movies_med_6","questionText":"Which Indian film won the Best Feature Film award at the 2024 National Film Awards?","options":["Gangubai Kathiawadi","RRR","Bhool Bhulaiyaa 2","Jhund"],"correctIndex":0},
+    {"id":"movies_med_7","questionText":"Who directed 'Pulp Fiction'?","options":["Quentin Tarantino","Martin Scorsese","Steven Spielberg","Christopher Nolan"],"correctIndex":0},
+    {"id":"movies_med_8","questionText":"Which actress starred as Hermione Granger in the Harry Potter series?","options":["Emma Watson","Emma Stone","Natalie Portman","Saoirse Ronan"],"correctIndex":0},
+    {"id":"movies_med_9","questionText":"Which actor played Doctor Strange in MCU?","options":["Benedict Cumberbatch","Tom Holland","Chris Evans","Robert Downey Jr."],"correctIndex":0},
+    {"id":"movies_med_10","questionText":"Which animated Disney movie was released in 2024 featuring sea adventures?","options":["Moana 2","The Little Mermaid","Finding Nemo 2","Luca"],"correctIndex":1}
+  ],
+  "hard":[
+    {"id":"movies_hard_1","questionText":"Who composed the score for the movie 'Interstellar'?","options":["Hans Zimmer","John Williams","James Horner","Danny Elfman"],"correctIndex":0},
+    {"id":"movies_hard_2","questionText":"Which film won the Palme d'Or at the 2024 Cannes Film Festival?","options":["Anatomy of a Fall","Triangle of Sadness","The Fabelmans","Tár"],"correctIndex":0},
+    {"id":"movies_hard_3","questionText":"Who is the lead actor in the movie 'Oppenheimer' directed by Christopher Nolan?","options":["Cillian Murphy","Robert Downey Jr.","Leonardo DiCaprio","Brad Pitt"],"correctIndex":0},
+    {"id":"movies_hard_4","questionText":"Which South Korean film won the Best International Feature Film at the 2025 Oscars?","options":["Parasite 2","Decision to Leave","Oldboy Remake","Minari 2"],"correctIndex":1},
+    {"id":"movies_hard_5","questionText":"Which actress won the Best Actress Oscar in 2025?","options":["Cate Blanchett","Margot Robbie","Emma Stone","Zendaya"],"correctIndex":0},
+    {"id":"movies_hard_6","questionText":"Which movie features the song 'City of Stars' and won multiple Oscars?","options":["La La Land","The Greatest Showman","Moulin Rouge","Sing"],"correctIndex":0},
+    {"id":"movies_hard_7","questionText":"Who played the main antagonist in 'Black Panther: Wakanda Forever'?","options":["Namor","Killmonger","Ulysses Klaue","Erik Stevens"],"correctIndex":0},
+    {"id":"movies_hard_8","questionText":"Which director is known for the movies 'Dunkirk', 'Tenet', and 'Oppenheimer'?","options":["Christopher Nolan","Steven Spielberg","James Cameron","Ridley Scott"],"correctIndex":0},
+    {"id":"movies_hard_9","questionText":"Which 2025 movie is a prequel to 'Avatar: The Way of Water'?","options":["Avatar 3","Avatar: The Next Chapter","Pandora Rising","Avatar Origins"],"correctIndex":0},
+    {"id":"movies_hard_10","questionText":"Which actor plays the character of Doctor Doom in the upcoming 2025 Marvel movie?","options":["Javier Bardem","Michael Fassbender","Tom Hiddleston","Oscar Isaac"],"correctIndex":0}
+  ]
+}
+"Geography": {
+  "easy":[
+    {"id":"geo_easy_1","questionText":"Which is the largest continent by area?","options":["Africa","Asia","Europe","North America"],"correctIndex":1},
+    {"id":"geo_easy_2","questionText":"Which country has the largest population in the world?","options":["India","USA","China","Russia"],"correctIndex":2},
+    {"id":"geo_easy_3","questionText":"Mount Everest is located in which mountain range?","options":["Andes","Alps","Himalayas","Rockies"],"correctIndex":2},
+    {"id":"geo_easy_4","questionText":"Which river is the longest in the world?","options":["Nile","Amazon","Yangtze","Mississippi"],"correctIndex":0},
+    {"id":"geo_easy_5","questionText":"Which ocean is the largest by area?","options":["Atlantic","Pacific","Indian","Arctic"],"correctIndex":1},
+    {"id":"geo_easy_6","questionText":"Which desert is the largest in the world?","options":["Sahara","Gobi","Kalahari","Arabian"],"correctIndex":0},
+    {"id":"geo_easy_7","questionText":"Which country is known as the Land of the Rising Sun?","options":["China","Japan","Thailand","South Korea"],"correctIndex":1},
+    {"id":"geo_easy_8","questionText":"Which city is the capital of Australia?","options":["Sydney","Melbourne","Canberra","Brisbane"],"correctIndex":2},
+    {"id":"geo_easy_9","questionText":"Which country has the longest coastline?","options":["Australia","Canada","USA","Russia"],"correctIndex":1},
+    {"id":"geo_easy_10","questionText":"Which is the smallest country in the world by area?","options":["Monaco","Maldives","Vatican City","Liechtenstein"],"correctIndex":2}
+  ],
+  "medium":[
+    {"id":"geo_med_1","questionText":"Which country shares the longest border with the USA?","options":["Mexico","Canada","Russia","China"],"correctIndex":1},
+    {"id":"geo_med_2","questionText":"The Great Barrier Reef is located off the coast of which country?","options":["Australia","Fiji","Philippines","Indonesia"],"correctIndex":0},
+    {"id":"geo_med_3","questionText":"Which is the highest waterfall in the world?","options":["Niagara Falls","Victoria Falls","Angel Falls","Yosemite Falls"],"correctIndex":2},
+    {"id":"geo_med_4","questionText":"Which European country has the most volcanoes?","options":["Italy","Iceland","Greece","Spain"],"correctIndex":1},
+    {"id":"geo_med_5","questionText":"Which desert is located in northern China and southern Mongolia?","options":["Sahara","Gobi","Karakum","Thar"],"correctIndex":1},
+    {"id":"geo_med_6","questionText":"Which US state is known as the 'Sunshine State'?","options":["California","Florida","Texas","Arizona"],"correctIndex":1},
+    {"id":"geo_med_7","questionText":"Which river flows through Paris?","options":["Thames","Seine","Danube","Rhine"],"correctIndex":1},
+    {"id":"geo_med_8","questionText":"Which African country has both Atlantic and Indian Ocean coastlines?","options":["South Africa","Nigeria","Egypt","Kenya"],"correctIndex":0},
+    {"id":"geo_med_9","questionText":"Which country is known as the Land of the Midnight Sun?","options":["Norway","Sweden","Finland","Iceland"],"correctIndex":0},
+    {"id":"geo_med_10","questionText":"Which mountain is called the 'Savage Mountain' due to its difficulty?","options":["K2","Everest","Makalu","Kangchenjunga"],"correctIndex":0}
+  ],
+  "hard":[
+    {"id":"geo_hard_1","questionText":"Which African country has the highest number of official languages?","options":["South Africa","Nigeria","Ethiopia","Zimbabwe"],"correctIndex":0},
+    {"id":"geo_hard_2","questionText":"Which country has the most time zones?","options":["USA","Russia","France","China"],"correctIndex":2},
+    {"id":"geo_hard_3","questionText":"Which is the deepest lake in the world?","options":["Caspian Sea","Lake Baikal","Lake Tanganyika","Great Slave Lake"],"correctIndex":1},
+    {"id":"geo_hard_4","questionText":"Which US state is the northernmost point of the country?","options":["Alaska","Maine","Washington","Minnesota"],"correctIndex":0},
+    {"id":"geo_hard_5","questionText":"Which strait separates Europe from Asia?","options":["Bosporus","Gibraltar","Malacca","Hormuz"],"correctIndex":0},
+    {"id":"geo_hard_6","questionText":"Which is the largest island in the Mediterranean Sea?","options":["Sicily","Crete","Corsica","Cyprus"],"correctIndex":0},
+    {"id":"geo_hard_7","questionText":"Which mountain range separates Europe and Asia?","options":["Ural Mountains","Alps","Carpathians","Caucasus"],"correctIndex":0},
+    {"id":"geo_hard_8","questionText":"Which river forms part of the border between Mexico and the USA?","options":["Rio Grande","Mississippi","Colorado","Columbia"],"correctIndex":0},
+    {"id":"geo_hard_9","questionText":"Which African lake is known for having the most biodiversity of freshwater fish?","options":["Lake Victoria","Lake Tanganyika","Lake Malawi","Lake Chad"],"correctIndex":1},
+    {"id":"geo_hard_10","questionText":"Which desert in the world is the coldest?","options":["Sahara","Gobi","Karakoram","Antarctic Desert"],"correctIndex":3}
+  ]
+}
+"History": {
+  "easy":[
+    {"id":"hist_easy_1","questionText":"Who was the first President of the United States?","options":["George Washington","Thomas Jefferson","Abraham Lincoln","John Adams"],"correctIndex":0},
+    {"id":"hist_easy_2","questionText":"In which year did World War II end?","options":["1942","1945","1939","1918"],"correctIndex":1},
+    {"id":"hist_easy_3","questionText":"Who discovered America in 1492?","options":["Christopher Columbus","Vasco da Gama","Ferdinand Magellan","Marco Polo"],"correctIndex":0},
+    {"id":"hist_easy_4","questionText":"Which empire was ruled by Julius Caesar?","options":["Roman Empire","Ottoman Empire","Mongol Empire","British Empire"],"correctIndex":0},
+    {"id":"hist_easy_5","questionText":"Who was the first emperor of China?","options":["Qin Shi Huang","Confucius","Sun Tzu","Liu Bang"],"correctIndex":0},
+    {"id":"hist_easy_6","questionText":"Which revolution led to the end of the monarchy in France?","options":["American Revolution","French Revolution","Russian Revolution","Industrial Revolution"],"correctIndex":1},
+    {"id":"hist_easy_7","questionText":"Who wrote the Declaration of Independence?","options":["Thomas Jefferson","Benjamin Franklin","George Washington","John Adams"],"correctIndex":0},
+    {"id":"hist_easy_8","questionText":"Who was the leader of India’s independence movement?","options":["Mahatma Gandhi","Jawaharlal Nehru","Subhas Chandra Bose","Bhagat Singh"],"correctIndex":0},
+    {"id":"hist_easy_9","questionText":"Which country built the Great Wall?","options":["China","Japan","India","Mongolia"],"correctIndex":0},
+    {"id":"hist_easy_10","questionText":"Who was the first female Prime Minister of the UK?","options":["Theresa May","Margaret Thatcher","Indira Gandhi","Angela Merkel"],"correctIndex":1}
+  ],
+  "medium":[
+    {"id":"hist_med_1","questionText":"Who was the last pharaoh of Ancient Egypt?","options":["Cleopatra","Tutankhamun","Ramses II","Nefertiti"],"correctIndex":0},
+    {"id":"hist_med_2","questionText":"Which treaty ended World War I?","options":["Treaty of Versailles","Treaty of Paris","Treaty of Tordesillas","Treaty of Ghent"],"correctIndex":0},
+    {"id":"hist_med_3","questionText":"Who led the Bolshevik Revolution in Russia?","options":["Vladimir Lenin","Joseph Stalin","Leon Trotsky","Nicholas II"],"correctIndex":0},
+    {"id":"hist_med_4","questionText":"In which year did the Berlin Wall fall?","options":["1987","1989","1991","1993"],"correctIndex":1},
+    {"id":"hist_med_5","questionText":"Who was the founder of the Mongol Empire?","options":["Genghis Khan","Kublai Khan","Attila","Tamerlane"],"correctIndex":0},
+    {"id":"hist_med_6","questionText":"The Renaissance began in which country?","options":["Italy","France","England","Spain"],"correctIndex":0},
+    {"id":"hist_med_7","questionText":"Who was the first Prime Minister of independent India?","options":["Jawaharlal Nehru","Mahatma Gandhi","Indira Gandhi","Sardar Patel"],"correctIndex":0},
+    {"id":"hist_med_8","questionText":"Which war was fought between the North and South regions of the USA?","options":["World War I","Civil War","Revolutionary War","War of 1812"],"correctIndex":1},
+    {"id":"hist_med_9","questionText":"Who was the first ruler of the Mughal Empire?","options":["Babur","Akbar","Shah Jahan","Aurangzeb"],"correctIndex":0},
+    {"id":"hist_med_10","questionText":"Which civilization built Machu Picchu?","options":["Inca","Aztec","Maya","Olmec"],"correctIndex":0}
+  ],
+  "hard":[
+    {"id":"hist_hard_1","questionText":"Which ancient civilization used cuneiform script?","options":["Sumerians","Egyptians","Romans","Greeks"],"correctIndex":0},
+    {"id":"hist_hard_2","questionText":"Who was the first ruler of the Ottoman Empire?","options":["Osman I","Suleiman the Magnificent","Mehmed II","Bayezid I"],"correctIndex":0},
+    {"id":"hist_hard_3","questionText":"In which year did the Russian Revolution take place?","options":["1905","1917","1922","1939"],"correctIndex":1},
+    {"id":"hist_hard_4","questionText":"Who was the leader of the Carthaginian army during the Second Punic War?","options":["Hannibal","Scipio Africanus","Julius Caesar","Pyrrhus"],"correctIndex":0},
+    {"id":"hist_hard_5","questionText":"Which dynasty ruled China for nearly 300 years, ending in 1912?","options":["Qing Dynasty","Ming Dynasty","Tang Dynasty","Han Dynasty"],"correctIndex":0},
+    {"id":"hist_hard_6","questionText":"Who was the founder of the Safavid Empire?","options":["Shah Ismail I","Babur","Akbar","Suleiman"],"correctIndex":0},
+    {"id":"hist_hard_7","questionText":"Which empire was ruled by Ashoka the Great?","options":["Maurya","Gupta","Mughal","Chola"],"correctIndex":0},
+    {"id":"hist_hard_8","questionText":"Which battle marked the end of Napoleon’s rule?","options":["Battle of Waterloo","Battle of Leipzig","Battle of Trafalgar","Battle of Austerlitz"],"correctIndex":0},
+    {"id":"hist_hard_9","questionText":"Who was the first Emperor of the Byzantine Empire?","options":["Constantine I","Justinian I","Theodosius I","Alexius I"],"correctIndex":0},
+    {"id":"hist_hard_10","questionText":"Which treaty ended the Thirty Years’ War in 1648?","options":["Peace of Westphalia","Treaty of Utrecht","Treaty of Paris","Treaty of Ghent"],"correctIndex":0}
+  ]
+}
+
+},
