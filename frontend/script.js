@@ -1,6 +1,6 @@
 console.log("script.js loaded");
 
-const API_BASE_URL = "https://mini-project-quiz-app.onrender.com";
+const API_BASE_URL = "https://mini-project-quiz-app.onrender.com/api";
 
 // sections
 const landingSection = document.getElementById("landingSection");
