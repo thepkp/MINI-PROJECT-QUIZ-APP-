@@ -40,8 +40,11 @@ ai-quiz-app/
 │
 ├── .gitignore
 └── README.md
+```
+
 🧰 Technologies Used
 🖥️ Frontend
+```
 HTML5
 
 CSS3 (with glassmorphism and transitions)
@@ -51,8 +54,9 @@ Vanilla JavaScript (ES6+)
 Chart.js (for analytics visualization)
 
 jsPDF (for PDF report generation)
-
+```
 ⚙️ Backend
+```
 FastAPI (Python Web Framework)
 
 Uvicorn (ASGI Server)
@@ -62,21 +66,23 @@ Pydantic (Data validation)
 Python-dotenv (Environment variable management)
 
 Google Generative AI SDK (google-generativeai)
-
+```
 ☁️ Deployment
+```
 Frontend: Netlify
 
 Backend: Render or Railway
-
+```
 ⚙️ Installation & Setup Guide
 1️⃣ Clone the Repository
 bash
-Copy code
+```
 git clone https://github.com/your-username/ai-quiz-app.git
 cd ai-quiz-app
+```
 2️⃣ Backend Setup (FastAPI + Gemini)
 bash
-Copy code
+```
 cd backend
 python -m venv venv
 venv\Scripts\activate      # For Windows
@@ -84,16 +90,18 @@ venv\Scripts\activate      # For Windows
 source venv/bin/activate   # For macOS/Linux
 
 pip install -r requirements.txt
+```
 Create a .env file in the backend directory:
-
 bash
-Copy code
+```
 GEMINI_API_KEY=your_google_gemini_api_key_here
+```
 Run the FastAPI server:
 
 bash
-Copy code
+```
 uvicorn app.main:app --reload
+```
 The backend will start at:
 ➡️ http://127.0.0.1:8000
 
@@ -101,13 +109,14 @@ The backend will start at:
 Navigate to the frontend folder and open the app in your browser:
 
 bash
-Copy code
+```
 cd frontend
 You can serve it locally using Python’s built-in server:
-
+```
 bash
-Copy code
+```
 python -m http.server 8001
+```
 Then visit:
 ➡️ http://127.0.0.1:8001
 
@@ -117,18 +126,20 @@ Make sure your backend is running first.
 Create a .env file in the backend with the following key:
 
 bash
-Copy code
+```
 # backend/.env
 GEMINI_API_KEY=your_gemini_api_key
+```
 ⚠️ Note: Do not commit this .env file to GitHub.
 Use .env.example for reference if needed.
 
 🧾 API Endpoints
+```
 🔹 Generate Questions (POST)
 URL: /api/generate-questions
-
+```
 Request:
-
+```
 typescript
 Copy code
 {
@@ -137,8 +148,9 @@ Copy code
   "numQuestions": 10,
   "useAI": true
 }
+```
 Response:
-
+```
 typescript
 Copy code
 {
@@ -151,19 +163,22 @@ Copy code
     }
   ]
 }
+```
 🔹 Score Quiz (POST)
+```
 URL: /api/score-quiz
-
+```
 Request:
-
+```
 typescript
 Copy code
 {
   "questions": [...],
   "userAnswers": [0, 1, 2, 3]
 }
+```
 Response:
-
+```
 typescript
 Copy code
 {
@@ -172,28 +187,31 @@ Copy code
   "wrongCount": 3,
   "scorePercent": 70.0
 }
+```
 📊 Analytics Dashboard
-Displays Donut Chart for correct vs wrong.
 
-Displays Bar Chart for performance summary.
+- Displays Donut Chart for correct vs wrong.
 
-Lists Question Review section with:
+- Displays Bar Chart for performance summary.
 
-User answers
+- Lists Question Review section with:
 
-Correct answers
+- User answers
 
-Visual feedback (✔️ or ❌)
+- Correct answers
 
-Users can also download the entire report as a PDF, which includes:
+- Visual feedback (✔️ or ❌)
 
-Score summary
+- Users can also download the entire report as a PDF, which includes:
 
-Charts
+- Score summary
 
-Detailed question review
+- Charts
+
+- Detailed question review
 
 📦 requirements.txt
+```
 txt
 Copy code
 fastapi==0.115.0
@@ -206,76 +224,91 @@ reportlab==4.2.4
 Pillow==10.4.0
 fastapi-cors==0.2.0
 matplotlib==3.9.2
-🌍 Deployment Guide
-🚀 Frontend (Netlify)
-Log in to Netlify
+```
+# 🌍 Deployment Guide
 
-Click “New Site from Git”
+- 🚀 Frontend (Netlify)
 
-Connect your GitHub repository
+```
+- Log in to Netlify
 
-Set build directory to frontend
+- Click “New Site from Git”
 
-Deploy — your app will get a public URL like:
+- Connect your GitHub repository
 
+- Set build directory to frontend
+
+- Deploy — your app will get a public URL like:
 arduino
-Copy code
+- Copy code
 https://ai-quiz-app.netlify.app
-⚙️ Backend (Render)
-Log in to Render
+```
+- ⚙️ Backend (Render)
+```
+- Log in to Render
 
-Create a new Web Service
+- Create a new Web Service
 
-Connect your GitHub repo
+- Connect your GitHub repo
 
-Select the /backend folder
+- Select the /backend folder
 
-Set:
+- Set:
 
-Build Command: pip install -r requirements.txt
+- Build Command: pip install -r requirements.txt
 
-Start Command: uvicorn app.main:app --host 0.0.0.0 --port 10000
+- Start Command: uvicorn app.main:app --host 0.0.0.0 --port 10000
+```
 
-Add environment variable:
-
+- Add environment variable:
+```
 ini
 Copy code
 GEMINI_API_KEY=your_gemini_api_key
-📸 Screenshots
+```
+# 📸 Screenshots
+
 Setup Page	Quiz Screen	Analytics Dashboard
 
 🧠 Key Learnings
-Integration of AI models (Gemini) into interactive apps.
+```
+- Integration of AI models (Gemini) into interactive apps.
 
-Building RESTful APIs using FastAPI.
+- Building RESTful APIs using FastAPI.
 
-Handling async data fetches in JavaScript.
+- Handling async data fetches in JavaScript.
 
-Generating dynamic PDF reports using jsPDF.
+- Generating dynamic PDF reports using jsPDF.
 
-Hosting full-stack apps with Netlify + Render.
-
-👨‍💻 Author
+- Hosting full-stack apps with Netlify + Render.
+```
+# 👨‍💻 Author
+```
 Piyush Kumar
 B.Tech CSE — ABES Engineering College
 
 Passionate about AI, innovation, and creating smart engineering solutions.
-
-🪪 License
+```
+# 🪪 License
+```
 This project is licensed under the MIT License — free to use and modify.
+```
+# ⭐ How to Contribute
+```
+- Fork the repository
 
-⭐ How to Contribute
-Fork the repository
+- Create a new branch: git checkout -b feature-name
 
-Create a new branch: git checkout -b feature-name
+- Commit your changes: git commit -m "Added new feature"
 
-Commit your changes: git commit -m "Added new feature"
+- Push to your fork: git push origin feature-name
 
-Push to your fork: git push origin feature-name
-
-Create a Pull Request
-
-💬 Support
+- Create a Pull Request
+```
+# 💬 Support
+```
 If you found this project useful, consider giving it a ⭐ on GitHub!
 For any issues, open an Issue.
 ```
+
+
