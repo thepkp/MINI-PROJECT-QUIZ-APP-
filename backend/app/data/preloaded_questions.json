@@ -1,0 +1,982 @@
+{
+  "General Knowledge": {
+    "easy": [
+      {
+        "id": "gk_easy_1",
+        "questionText": "What is the capital of India?",
+        "options": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+        "correctIndex": 1
+      },
+      {
+        "id": "gk_easy_2",
+        "questionText": "Which currency is used in the United States of America?",
+        "options": ["Euro", "Dollar", "Pound", "Yen"],
+        "correctIndex": 1
+      },
+      {
+        "id": "gk_easy_3",
+        "questionText": "Which of these is the largest continent by area?",
+        "options": ["Africa", "Asia", "Europe", "Australia"],
+        "correctIndex": 1
+      },
+      {
+        "id": "gk_easy_4",
+        "questionText": "Who wrote the Indian national anthem?",
+        "options": ["Rabindranath Tagore", "Bankim Chandra Chatterjee", "Mahatma Gandhi", "Subhash Chandra Bose"],
+        "correctIndex": 0
+      },
+      {
+        "id": "gk_easy_5",
+        "questionText": "Which day is celebrated as Independence Day in India?",
+        "options": ["15th August", "26th January", "2nd October", "14th November"],
+        "correctIndex": 0
+      }
+    ],
+    "medium": [
+      {
+        "id": "gk_med_1",
+        "questionText": "Which of the following is the longest river in the world by length?",
+        "options": ["Nile", "Amazon", "Yangtze", "Ganga"],
+        "correctIndex": 0
+      },
+      {
+        "id": "gk_med_2",
+        "questionText": "Which Indian state is known as the 'Land of Five Rivers'?",
+        "options": ["Punjab", "Haryana", "Gujarat", "Rajasthan"],
+        "correctIndex": 0
+      },
+      {
+        "id": "gk_med_3",
+        "questionText": "The Great Wall is located in which country?",
+        "options": ["India", "China", "Japan", "Russia"],
+        "correctIndex": 1
+      },
+      {
+        "id": "gk_med_4",
+        "questionText": "Which of these is not a primary colour of light?",
+        "options": ["Red", "Green", "Blue", "Yellow"],
+        "correctIndex": 3
+      },
+      {
+        "id": "gk_med_5",
+        "questionText": "Who is known as the 'Missile Man of India'?",
+        "options": ["C. V. Raman", "Homi Bhabha", "A. P. J. Abdul Kalam", "Vikram Sarabhai"],
+        "correctIndex": 2
+      }
+    ],
+    "hard": [
+      {
+        "id": "gk_hard_1",
+        "questionText": "In which year did India become a republic?",
+        "options": ["1947", "1948", "1949", "1950"],
+        "correctIndex": 3
+      },
+      {
+        "id": "gk_hard_2",
+        "questionText": "Which city is known as the 'Silicon Valley of India'?",
+        "options": ["Hyderabad", "Bengaluru", "Pune", "Chennai"],
+        "correctIndex": 1
+      },
+      {
+        "id": "gk_hard_3",
+        "questionText": "The headquarters of the International Court of Justice is located in:",
+        "options": ["Geneva", "The Hague", "New York", "Paris"],
+        "correctIndex": 1
+      },
+      {
+        "id": "gk_hard_4",
+        "questionText": "Who was the first Governor-General of independent India?",
+        "options": ["Lord Mountbatten", "Rajendra Prasad", "Jawaharlal Nehru", "C. Rajagopalachari"],
+        "correctIndex": 0
+      },
+      {
+        "id": "gk_hard_5",
+        "questionText": "Which of these is the smallest country in the world by area?",
+        "options": ["Monaco", "Vatican City", "Nauru", "San Marino"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  "Science": {
+    "easy": [
+      {
+        "id": "sci_easy_1",
+        "questionText": "What planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter", "Venus"],
+        "correctIndex": 1
+      },
+      {
+        "id": "sci_easy_2",
+        "questionText": "Which gas do plants absorb from the atmosphere for photosynthesis?",
+        "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Helium"],
+        "correctIndex": 2
+      },
+      {
+        "id": "sci_easy_3",
+        "questionText": "Water freezes at what temperature on the Celsius scale?",
+        "options": ["0°C", "25°C", "50°C", "100°C"],
+        "correctIndex": 0
+      },
+      {
+        "id": "sci_easy_4",
+        "questionText": "Which part of the plant conducts photosynthesis?",
+        "options": ["Root", "Stem", "Leaf", "Flower"],
+        "correctIndex": 2
+      },
+      {
+        "id": "sci_easy_5",
+        "questionText": "Which organ pumps blood throughout the human body?",
+        "options": ["Lungs", "Heart", "Brain", "Liver"],
+        "correctIndex": 1
+      }
+    ],
+    "medium": [
+      {
+        "id": "sci_med_1",
+        "questionText": "Which vitamin is produced in the skin when exposed to sunlight?",
+        "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+        "correctIndex": 2
+      },
+      {
+        "id": "sci_med_2",
+        "questionText": "What is the chemical formula of water?",
+        "options": ["CO2", "H2O", "O2", "NaCl"],
+        "correctIndex": 1
+      },
+      {
+        "id": "sci_med_3",
+        "questionText": "Which of these is a non-renewable source of energy?",
+        "options": ["Solar energy", "Wind energy", "Coal", "Hydro power"],
+        "correctIndex": 2
+      },
+      {
+        "id": "sci_med_4",
+        "questionText": "The unit of electric current is:",
+        "options": ["Volt", "Ampere", "Ohm", "Watt"],
+        "correctIndex": 1
+      },
+      {
+        "id": "sci_med_5",
+        "questionText": "Which scientist proposed the three laws of planetary motion?",
+        "options": ["Isaac Newton", "Galileo Galilei", "Johannes Kepler", "Albert Einstein"],
+        "correctIndex": 2
+      }
+    ],
+    "hard": [
+      {
+        "id": "sci_hard_1",
+        "questionText": "Which subatomic particle has a negative charge?",
+        "options": ["Proton", "Neutron", "Electron", "Positron"],
+        "correctIndex": 2
+      },
+      {
+        "id": "sci_hard_2",
+        "questionText": "Which branch of science deals with the study of heredity and variation?",
+        "options": ["Ecology", "Genetics", "Anatomy", "Physiology"],
+        "correctIndex": 1
+      },
+      {
+        "id": "sci_hard_3",
+        "questionText": "Which law states that pressure is inversely proportional to volume at constant temperature?",
+        "options": ["Ohm's Law", "Boyle's Law", "Hooke's Law", "Charles's Law"],
+        "correctIndex": 1
+      },
+      {
+        "id": "sci_hard_4",
+        "questionText": "The SI unit of force is:",
+        "options": ["Joule", "Newton", "Pascal", "Tesla"],
+        "correctIndex": 1
+      },
+      {
+        "id": "sci_hard_5",
+        "questionText": "Which part of the cell is known as the 'powerhouse of the cell'?",
+        "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi apparatus"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  "Mathematics": {
+    "easy": [
+      {
+        "id": "math_easy_1",
+        "questionText": "What is 7 + 5?",
+        "options": ["10", "11", "12", "13"],
+        "correctIndex": 2
+      },
+      {
+        "id": "math_easy_2",
+        "questionText": "What is 9 × 3?",
+        "options": ["18", "21", "24", "27"],
+        "correctIndex": 1
+      },
+      {
+        "id": "math_easy_3",
+        "questionText": "What is half of 100?",
+        "options": ["25", "40", "50", "75"],
+        "correctIndex": 2
+      },
+      {
+        "id": "math_easy_4",
+        "questionText": "Which of these is an even number?",
+        "options": ["7", "11", "14", "19"],
+        "correctIndex": 2
+      },
+      {
+        "id": "math_easy_5",
+        "questionText": "What is 15 − 6?",
+        "options": ["7", "8", "9", "10"],
+        "correctIndex": 2
+      }
+    ],
+    "medium": [
+      {
+        "id": "math_med_1",
+        "questionText": "What is the value of 6²?",
+        "options": ["12", "18", "24", "36"],
+        "correctIndex": 3
+      },
+      {
+        "id": "math_med_2",
+        "questionText": "If a triangle has sides 3, 4, and 5, it is a:",
+        "options": ["Right triangle", "Equilateral triangle", "Isosceles triangle", "Obtuse triangle"],
+        "correctIndex": 0
+      },
+      {
+        "id": "math_med_3",
+        "questionText": "What is the simple interest on Rs. 1000 at 10% per annum for 2 years?",
+        "options": ["Rs. 100", "Rs. 150", "Rs. 200", "Rs. 250"],
+        "correctIndex": 2
+      },
+      {
+        "id": "math_med_4",
+        "questionText": "The value of π (pi) is approximately:",
+        "options": ["2.14", "3.14", "3.41", "4.13"],
+        "correctIndex": 1
+      },
+      {
+        "id": "math_med_5",
+        "questionText": "If 5x = 20, what is x?",
+        "options": ["2", "3", "4", "5"],
+        "correctIndex": 2
+      }
+    ],
+    "hard": [
+      {
+        "id": "math_hard_1",
+        "questionText": "The derivative of x² with respect to x is:",
+        "options": ["x", "2x", "x²", "2"],
+        "correctIndex": 1
+      },
+      {
+        "id": "math_hard_2",
+        "questionText": "If sinθ = 1, what is the value of θ (in degrees)?",
+        "options": ["30°", "45°", "60°", "90°"],
+        "correctIndex": 3
+      },
+      {
+        "id": "math_hard_3",
+        "questionText": "The area under a velocity-time graph represents:",
+        "options": ["Distance", "Acceleration", "Force", "Power"],
+        "correctIndex": 0
+      },
+      {
+        "id": "math_hard_4",
+        "questionText": "What is the sum of interior angles of a hexagon?",
+        "options": ["360°", "540°", "720°", "900°"],
+        "correctIndex": 2
+      },
+      {
+        "id": "math_hard_5",
+        "questionText": "If the matrix A is 2×3 and B is 3×4, the product AB will be of order:",
+        "options": ["2×3", "3×2", "2×4", "3×4"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  "Computer Basics": {
+    "easy": [
+      {
+        "id": "cb_easy_1",
+        "questionText": "What does CPU stand for?",
+        "options": ["Central Process Unit", "Central Processing Unit", "Control Processing Unit", "Computer Personal Unit"],
+        "correctIndex": 1
+      },
+      {
+        "id": "cb_easy_2",
+        "questionText": "Which device is used to print on paper?",
+        "options": ["Monitor", "Scanner", "Printer", "Keyboard"],
+        "correctIndex": 2
+      },
+      {
+        "id": "cb_easy_3",
+        "questionText": "Which of these is an input device?",
+        "options": ["Printer", "Monitor", "Mouse", "Speaker"],
+        "correctIndex": 2
+      },
+      {
+        "id": "cb_easy_4",
+        "questionText": "Which memory is known as primary memory?",
+        "options": ["Hard Disk", "RAM", "Pen Drive", "CD-ROM"],
+        "correctIndex": 1
+      },
+      {
+        "id": "cb_easy_5",
+        "questionText": "Which key is used to delete characters to the left of the cursor?",
+        "options": ["Delete", "Backspace", "Shift", "Ctrl"],
+        "correctIndex": 1
+      }
+    ],
+    "medium": [
+      {
+        "id": "cb_med_1",
+        "questionText": "Which of these is an example of system software?",
+        "options": ["MS Word", "Windows OS", "Tally", "PowerPoint"],
+        "correctIndex": 1
+      },
+      {
+        "id": "cb_med_2",
+        "questionText": "Which communication device is used to connect a computer to the Internet?",
+        "options": ["Router", "Scanner", "Projector", "Printer"],
+        "correctIndex": 0
+      },
+      {
+        "id": "cb_med_3",
+        "questionText": "Which of the following is a volatile memory?",
+        "options": ["Hard Disk", "ROM", "RAM", "Pen Drive"],
+        "correctIndex": 2
+      },
+      {
+        "id": "cb_med_4",
+        "questionText": "Which term refers to the physical parts of a computer?",
+        "options": ["Software", "Hardware", "Firmware", "Malware"],
+        "correctIndex": 1
+      },
+      {
+        "id": "cb_med_5",
+        "questionText": "What does GUI stand for?",
+        "options": ["Graphical User Interface", "Global User Internet", "General Utility Input", "Graphical Unified Icon"],
+        "correctIndex": 0
+      }
+    ],
+    "hard": [
+      {
+        "id": "cb_hard_1",
+        "questionText": "Which of the following is a type of non-volatile memory that can be electrically erased and reprogrammed?",
+        "options": ["SRAM", "DRAM", "Flash Memory", "Cache Memory"],
+        "correctIndex": 2
+      },
+      {
+        "id": "cb_hard_2",
+        "questionText": "Which bus carries the actual data between processor and memory?",
+        "options": ["Address bus", "Control bus", "Data bus", "Local bus"],
+        "correctIndex": 2
+      },
+      {
+        "id": "cb_hard_3",
+        "questionText": "The smallest addressable unit of data in a computer is:",
+        "options": ["Bit", "Byte", "Word", "Nibble"],
+        "correctIndex": 1
+      },
+      {
+        "id": "cb_hard_4",
+        "questionText": "Which of these represents the speed of a processor?",
+        "options": ["Hz", "Mbps", "dpi", "RPM"],
+        "correctIndex": 0
+      },
+      {
+        "id": "cb_hard_5",
+        "questionText": "Which type of system typically uses RAID for data redundancy?",
+        "options": ["Small embedded systems", "High-availability servers", "Mobile phones", "IoT sensors"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  "Programming Fundamentals": {
+    "easy": [
+      {
+        "id": "pf_easy_1",
+        "questionText": "Which symbol is used for single-line comments in C++?",
+        "options": ["//", "/*", "#", "--"],
+        "correctIndex": 0
+      },
+      {
+        "id": "pf_easy_2",
+        "questionText": "Which data type is used to store whole numbers in C?",
+        "options": ["float", "char", "int", "double"],
+        "correctIndex": 2
+      },
+      {
+        "id": "pf_easy_3",
+        "questionText": "Which of these is a looping statement?",
+        "options": ["if", "for", "switch", "break"],
+        "correctIndex": 1
+      },
+      {
+        "id": "pf_easy_4",
+        "questionText": "Which keyword is used to define a function in many languages like JavaScript and Python?",
+        "options": ["func", "define", "function", "fn"],
+        "correctIndex": 2
+      },
+      {
+        "id": "pf_easy_5",
+        "questionText": "Which of these operators is used for assignment?",
+        "options": ["=", "==", "!=", ">="],
+        "correctIndex": 0
+      }
+    ],
+    "medium": [
+      {
+        "id": "pf_med_1",
+        "questionText": "What will be the result of 7 % 3?",
+        "options": ["1", "2", "3", "4"],
+        "correctIndex": 1
+      },
+      {
+        "id": "pf_med_2",
+        "questionText": "Which of these is not a valid loop in C?",
+        "options": ["for", "while", "repeat", "do-while"],
+        "correctIndex": 2
+      },
+      {
+        "id": "pf_med_3",
+        "questionText": "Which statement is used to exit from a loop in C/C++?",
+        "options": ["exit", "stop", "break", "continue"],
+        "correctIndex": 2
+      },
+      {
+        "id": "pf_med_4",
+        "questionText": "An array index in most programming languages starts from:",
+        "options": ["-1", "0", "1", "2"],
+        "correctIndex": 1
+      },
+      {
+        "id": "pf_med_5",
+        "questionText": "Which of the following best describes a compiler?",
+        "options": ["Translates high-level code to machine code", "Executes code line by line", "Edits source code", "Compresses files"],
+        "correctIndex": 0
+      }
+    ],
+    "hard": [
+      {
+        "id": "pf_hard_1",
+        "questionText": "What is the time complexity of binary search in a sorted array?",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+        "correctIndex": 1
+      },
+      {
+        "id": "pf_hard_2",
+        "questionText": "Which of these is a characteristic of a recursive function?",
+        "options": ["It cannot call itself", "It calls itself directly or indirectly", "It always runs faster", "It does not need a base case"],
+        "correctIndex": 1
+      },
+      {
+        "id": "pf_hard_3",
+        "questionText": "Which memory region typically stores local variables in most languages like C/C++?",
+        "options": ["Heap", "Stack", "Static area", "Register file"],
+        "correctIndex": 1
+      },
+      {
+        "id": "pf_hard_4",
+        "questionText": "In object-oriented programming, which concept allows using the same function name with different parameters?",
+        "options": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction"],
+        "correctIndex": 2
+      },
+      {
+        "id": "pf_hard_5",
+        "questionText": "Which of the following is NOT a programming paradigm?",
+        "options": ["Procedural", "Object-Oriented", "Functional", "Graphical"],
+        "correctIndex": 3
+      }
+    ]
+  },
+  "Current Affairs": {
+    "easy": [
+      {
+        "id": "ca_easy_1",
+        "questionText": "Which international organization is responsible for maintaining international peace and security?",
+        "options": ["UNESCO", "UNICEF", "United Nations Security Council", "WHO"],
+        "correctIndex": 2
+      },
+      {
+        "id": "ca_easy_2",
+        "questionText": "Which day is observed as World Environment Day?",
+        "options": ["5 June", "22 April", "15 July", "1 December"],
+        "correctIndex": 0
+      },
+      {
+        "id": "ca_easy_3",
+        "questionText": "Which country is known as the 'Land of the Rising Sun'?",
+        "options": ["China", "Japan", "South Korea", "Thailand"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ca_easy_4",
+        "questionText": "Which organization is known for providing loans to developing countries for development projects?",
+        "options": ["World Bank", "UNICEF", "NATO", "Interpol"],
+        "correctIndex": 0
+      },
+      {
+        "id": "ca_easy_5",
+        "questionText": "Which Indian city is often called the 'Financial Capital of India'?",
+        "options": ["Delhi", "Mumbai", "Kolkata", "Bengaluru"],
+        "correctIndex": 1
+      }
+    ],
+    "medium": [
+      {
+        "id": "ca_med_1",
+        "questionText": "Which intergovernmental organization is focused on climate change and global warming agreements?",
+        "options": ["WTO", "IPCC/UNFCCC process", "ASEAN", "SAARC"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ca_med_2",
+        "questionText": "Which summit is primarily associated with major industrialized nations discussing global economic issues?",
+        "options": ["G20 Summit", "NAM Summit", "BRICS Summit", "OPEC Meeting"],
+        "correctIndex": 0
+      },
+      {
+        "id": "ca_med_3",
+        "questionText": "Which Indian body conducts national-level competitive examinations like Civil Services Examination?",
+        "options": ["SSC", "UPSC", "IBPS", "NTA"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ca_med_4",
+        "questionText": "Which space agency launched the Hubble Space Telescope?",
+        "options": ["ISRO", "ESA", "Roscosmos", "NASA"],
+        "correctIndex": 3
+      },
+      {
+        "id": "ca_med_5",
+        "questionText": "Which of the following is a global health organization?",
+        "options": ["WHO", "WTO", "IMF", "NATO"],
+        "correctIndex": 0
+      }
+    ],
+    "hard": [
+      {
+        "id": "ca_hard_1",
+        "questionText": "Which international agreement is aimed at limiting the increase in global average temperature?",
+        "options": ["Kyoto Protocol", "Paris Agreement", "Geneva Convention", "Rio Declaration"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ca_hard_2",
+        "questionText": "Which global financial institution is responsible for maintaining international monetary cooperation and exchange rate stability?",
+        "options": ["World Bank", "International Monetary Fund", "Asian Development Bank", "New Development Bank"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ca_hard_3",
+        "questionText": "The headquarters of the World Trade Organization (WTO) is located in:",
+        "options": ["Geneva", "New York", "Brussels", "London"],
+        "correctIndex": 0
+      },
+      {
+        "id": "ca_hard_4",
+        "questionText": "Which of the following is an Indian government initiative related to digital payments and financial inclusion?",
+        "options": ["Digital India", "Make in India", "Smart Cities Mission", "Swachh Bharat Abhiyan"],
+        "correctIndex": 0
+      },
+      {
+        "id": "ca_hard_5",
+        "questionText": "Which regional group includes Brazil, Russia, India, China and South Africa?",
+        "options": ["SAARC", "BRICS", "G7", "ASEAN"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  "Sports": {
+    "easy": [
+      {
+        "id": "sport_easy_1",
+        "questionText": "How many players are there in a standard football (soccer) team on the field?",
+        "options": ["9", "10", "11", "12"],
+        "correctIndex": 2
+      },
+      {
+        "id": "sport_easy_2",
+        "questionText": "Which sport is associated with Wimbledon?",
+        "options": ["Cricket", "Hockey", "Tennis", "Football"],
+        "correctIndex": 2
+      },
+      {
+        "id": "sport_easy_3",
+        "questionText": "Which country is famous for the sport of sumo wrestling?",
+        "options": ["China", "Japan", "India", "Russia"],
+        "correctIndex": 1
+      },
+      {
+        "id": "sport_easy_4",
+        "questionText": "In cricket, how many runs are scored for hitting the ball over the boundary without bouncing?",
+        "options": ["4", "5", "6", "2"],
+        "correctIndex": 2
+      },
+      {
+        "id": "sport_easy_5",
+        "questionText": "Which game uses a shuttlecock?",
+        "options": ["Tennis", "Badminton", "Table Tennis", "Squash"],
+        "correctIndex": 1
+      }
+    ],
+    "medium": [
+      {
+        "id": "sport_med_1",
+        "questionText": "Which country has hosted the Olympic Games the most number of times?",
+        "options": ["USA", "China", "Japan", "Germany"],
+        "correctIndex": 0
+      },
+      {
+        "id": "sport_med_2",
+        "questionText": "In chess, which piece can only move diagonally?",
+        "options": ["Rook", "Bishop", "Knight", "Queen"],
+        "correctIndex": 1
+      },
+      {
+        "id": "sport_med_3",
+        "questionText": "What is the length of a standard marathon race?",
+        "options": ["21.1 km", "30 km", "42.195 km", "50 km"],
+        "correctIndex": 2
+      },
+      {
+        "id": "sport_med_4",
+        "questionText": "Which sport uses terms like 'love', 'deuce', and 'ace'?",
+        "options": ["Badminton", "Tennis", "Table Tennis", "Squash"],
+        "correctIndex": 1
+      },
+      {
+        "id": "sport_med_5",
+        "questionText": "Which of these is a famous international football tournament?",
+        "options": ["NBA Finals", "FIFA World Cup", "Stanley Cup", "Ashes Series"],
+        "correctIndex": 1
+      }
+    ],
+    "hard": [
+      {
+        "id": "sport_hard_1",
+        "questionText": "How many players are there in a standard volleyball team on the court?",
+        "options": ["5", "6", "7", "9"],
+        "correctIndex": 1
+      },
+      {
+        "id": "sport_hard_2",
+        "questionText": "In cricket, what does LBW stand for?",
+        "options": ["Leg Before Wicket", "Long Batting Wicket", "Left Batsman Wide", "Leg Behind Wicket"],
+        "correctIndex": 0
+      },
+      {
+        "id": "sport_hard_3",
+        "questionText": "Which country is traditionally strong in the sport of ice hockey?",
+        "options": ["India", "Canada", "Brazil", "Kenya"],
+        "correctIndex": 1
+      },
+      {
+        "id": "sport_hard_4",
+        "questionText": "Which sport includes events like the 100m dash, long jump, and shot put?",
+        "options": ["Gymnastics", "Athletics (Track and Field)", "Swimming", "Boxing"],
+        "correctIndex": 1
+      },
+      {
+        "id": "sport_hard_5",
+        "questionText": "In badminton, what is the maximum number of points in a standard game?",
+        "options": ["15", "21", "25", "30"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  "Movies & Entertainment": {
+    "easy": [
+      {
+        "id": "me_easy_1",
+        "questionText": "Which Indian film industry is popularly known as Bollywood?",
+        "options": ["Tamil", "Telugu", "Hindi", "Kannada"],
+        "correctIndex": 2
+      },
+      {
+        "id": "me_easy_2",
+        "questionText": "Which superhero is also known as the 'Dark Knight'?",
+        "options": ["Superman", "Batman", "Spider-Man", "Iron Man"],
+        "correctIndex": 1
+      },
+      {
+        "id": "me_easy_3",
+        "questionText": "Which device is commonly used to listen to music?",
+        "options": ["Printer", "Headphones", "Scanner", "Keyboard"],
+        "correctIndex": 1
+      },
+      {
+        "id": "me_easy_4",
+        "questionText": "Which of these is an animated movie?",
+        "options": ["Inception", "Toy Story", "Titanic", "The Godfather"],
+        "correctIndex": 1
+      },
+      {
+        "id": "me_easy_5",
+        "questionText": "Which of these is a popular music streaming platform?",
+        "options": ["Spotify", "MS Word", "Google Docs", "GitHub"],
+        "correctIndex": 0
+      }
+    ],
+    "medium": [
+      {
+        "id": "me_med_1",
+        "questionText": "Who directed the movie 'Avatar'?",
+        "options": ["Steven Spielberg", "Christopher Nolan", "James Cameron", "Martin Scorsese"],
+        "correctIndex": 2
+      },
+      {
+        "id": "me_med_2",
+        "questionText": "Which award is considered the highest honor in the film industry?",
+        "options": ["Grammy", "Oscar (Academy Award)", "Golden Boot", "Pulitzer"],
+        "correctIndex": 1
+      },
+      {
+        "id": "me_med_3",
+        "questionText": "Which of these is NOT a movie genre?",
+        "options": ["Action", "Comedy", "Thriller", "Compiler"],
+        "correctIndex": 3
+      },
+      {
+        "id": "me_med_4",
+        "questionText": "Which Indian actor is known as the 'King of Bollywood'?",
+        "options": ["Aamir Khan", "Salman Khan", "Shah Rukh Khan", "Akshay Kumar"],
+        "correctIndex": 2
+      },
+      {
+        "id": "me_med_5",
+        "questionText": "Which of the following is a popular TV streaming service?",
+        "options": ["Netflix", "MS Excel", "Notepad", "Chrome DevTools"],
+        "correctIndex": 0
+      }
+    ],
+    "hard": [
+      {
+        "id": "me_hard_1",
+        "questionText": "Which movie series features the fictional school 'Hogwarts'?",
+        "options": ["Lord of the Rings", "Harry Potter", "Star Wars", "Pirates of the Caribbean"],
+        "correctIndex": 1
+      },
+      {
+        "id": "me_hard_2",
+        "questionText": "Which musical instrument typically has 88 keys?",
+        "options": ["Guitar", "Violin", "Piano", "Flute"],
+        "correctIndex": 2
+      },
+      {
+        "id": "me_hard_3",
+        "questionText": "Which language is primarily used in most Hollywood movies?",
+        "options": ["English", "Spanish", "French", "German"],
+        "correctIndex": 0
+      },
+      {
+        "id": "me_hard_4",
+        "questionText": "Which of these is a popular Indian music composer duo?",
+        "options": ["Sachin-Jigar", "Newton-Leibniz", "Raman-Naidu", "Sharma-Verma"],
+        "correctIndex": 0
+      },
+      {
+        "id": "me_hard_5",
+        "questionText": "Which film award is specific to Indian cinema?",
+        "options": ["BAFTA", "Golden Globe", "National Film Award (India)", "Cannes Palm d'Or"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  "Geography": {
+    "easy": [
+      {
+        "id": "geo_easy_1",
+        "questionText": "Which is the largest ocean on Earth?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+        "correctIndex": 2
+      },
+      {
+        "id": "geo_easy_2",
+        "questionText": "Which direction does the sun rise in?",
+        "options": ["North", "South", "East", "West"],
+        "correctIndex": 2
+      },
+      {
+        "id": "geo_easy_3",
+        "questionText": "What is the capital of France?",
+        "options": ["Berlin", "Rome", "Paris", "Madrid"],
+        "correctIndex": 2
+      },
+      {
+        "id": "geo_easy_4",
+        "questionText": "Which is the largest desert in the world?",
+        "options": ["Sahara", "Thar", "Gobi", "Kalahari"],
+        "correctIndex": 0
+      },
+      {
+        "id": "geo_easy_5",
+        "questionText": "Which continent is India located in?",
+        "options": ["Africa", "Europe", "Asia", "Australia"],
+        "correctIndex": 2
+      }
+    ],
+    "medium": [
+      {
+        "id": "geo_med_1",
+        "questionText": "Which river is known as the 'Ganga of the South' in India?",
+        "options": ["Godavari", "Krishna", "Cauvery", "Narmada"],
+        "correctIndex": 2
+      },
+      {
+        "id": "geo_med_2",
+        "questionText": "Mount Everest lies on the border between which two countries?",
+        "options": ["India and China", "India and Nepal", "China and Nepal", "Bhutan and China"],
+        "correctIndex": 2
+      },
+      {
+        "id": "geo_med_3",
+        "questionText": "Which country has the largest population in the world?",
+        "options": ["USA", "India", "China", "Russia"],
+        "correctIndex": 2
+      },
+      {
+        "id": "geo_med_4",
+        "questionText": "Which of these is a landlocked country?",
+        "options": ["Japan", "Sri Lanka", "Nepal", "Indonesia"],
+        "correctIndex": 2
+      },
+      {
+        "id": "geo_med_5",
+        "questionText": "The Tropic of Cancer passes through which of these Indian states?",
+        "options": ["Kerala", "Rajasthan", "Punjab", "Tamil Nadu"],
+        "correctIndex": 1
+      }
+    ],
+    "hard": [
+      {
+        "id": "geo_hard_1",
+        "questionText": "Which line divides the Earth into the Northern and Southern Hemispheres?",
+        "options": ["Prime Meridian", "Equator", "Tropic of Cancer", "Tropic of Capricorn"],
+        "correctIndex": 1
+      },
+      {
+        "id": "geo_hard_2",
+        "questionText": "Which ocean lies to the west of India?",
+        "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+        "correctIndex": 2
+      },
+      {
+        "id": "geo_hard_3",
+        "questionText": "Which country has the longest coastline in the world?",
+        "options": ["Australia", "Russia", "Canada", "USA"],
+        "correctIndex": 2
+      },
+      {
+        "id": "geo_hard_4",
+        "questionText": "Which African country is known as the 'Rainbow Nation'?",
+        "options": ["Nigeria", "South Africa", "Kenya", "Egypt"],
+        "correctIndex": 1
+      },
+      {
+        "id": "geo_hard_5",
+        "questionText": "Which mountain range forms a natural boundary between Europe and Asia?",
+        "options": ["Alps", "Himalayas", "Ural Mountains", "Andes"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  "History": {
+    "easy": [
+      {
+        "id": "hist_easy_1",
+        "questionText": "Who is known as the 'Father of the Nation' in India?",
+        "options": ["Jawaharlal Nehru", "Subhash Chandra Bose", "Mahatma Gandhi", "Bhagat Singh"],
+        "correctIndex": 2
+      },
+      {
+        "id": "hist_easy_2",
+        "questionText": "Who was the first President of India?",
+        "options": ["Dr. Rajendra Prasad", "Dr. S. Radhakrishnan", "Dr. Zakir Hussain", "V. V. Giri"],
+        "correctIndex": 0
+      },
+      {
+        "id": "hist_easy_3",
+        "questionText": "The Taj Mahal was built by which Mughal emperor?",
+        "options": ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"],
+        "correctIndex": 2
+      },
+      {
+        "id": "hist_easy_4",
+        "questionText": "In which year did India get independence?",
+        "options": ["1945", "1947", "1950", "1952"],
+        "correctIndex": 1
+      },
+      {
+        "id": "hist_easy_5",
+        "questionText": "Who was known as the 'Iron Man of India'?",
+        "options": ["Lal Bahadur Shastri", "Sardar Vallabhbhai Patel", "Rajendra Prasad", "Indira Gandhi"],
+        "correctIndex": 1
+      }
+    ],
+    "medium": [
+      {
+        "id": "hist_med_1",
+        "questionText": "Who was the first Prime Minister of independent India?",
+        "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Sardar Patel", "Rajendra Prasad"],
+        "correctIndex": 1
+      },
+      {
+        "id": "hist_med_2",
+        "questionText": "Which movement was launched by Mahatma Gandhi in 1942?",
+        "options": ["Non-Cooperation Movement", "Civil Disobedience Movement", "Quit India Movement", "Swadeshi Movement"],
+        "correctIndex": 2
+      },
+      {
+        "id": "hist_med_3",
+        "questionText": "Who founded the Maurya Empire in India?",
+        "options": ["Ashoka", "Chandragupta Maurya", "Bindusara", "Harsha"],
+        "correctIndex": 1
+      },
+      {
+        "id": "hist_med_4",
+        "questionText": "The Battle of Plassey was fought in which year?",
+        "options": ["1757", "1764", "1857", "1919"],
+        "correctIndex": 0
+      },
+      {
+        "id": "hist_med_5",
+        "questionText": "Who was the first woman Prime Minister of India?",
+        "options": ["Sarojini Naidu", "Indira Gandhi", "Pratibha Patil", "Sushma Swaraj"],
+        "correctIndex": 1
+      }
+    ],
+    "hard": [
+      {
+        "id": "hist_hard_1",
+        "questionText": "Who was the last Viceroy of British India?",
+        "options": ["Lord Wavell", "Lord Mountbatten", "Lord Curzon", "Lord Linlithgow"],
+        "correctIndex": 1
+      },
+      {
+        "id": "hist_hard_2",
+        "questionText": "Which Indian freedom fighter formed the Azad Hind Fauj (INA)?",
+        "options": ["Bhagat Singh", "Chandra Shekhar Azad", "Subhash Chandra Bose", "Lala Lajpat Rai"],
+        "correctIndex": 2
+      },
+      {
+        "id": "hist_hard_3",
+        "questionText": "During whose reign was the 'Din-i Ilahi' religious doctrine introduced?",
+        "options": ["Babur", "Humayun", "Akbar", "Aurangzeb"],
+        "correctIndex": 2
+      },
+      {
+        "id": "hist_hard_4",
+        "questionText": "Which famous ancient university in India attracted students from all over the world?",
+        "options": ["Nalanda University", "Oxford University", "Takshashila University", "Harvard University"],
+        "correctIndex": 0
+      },
+      {
+        "id": "hist_hard_5",
+        "questionText": "Which freedom movement is associated with the slogan 'Do or Die'?",
+        "options": ["Non-Cooperation Movement", "Quit India Movement", "Swadeshi Movement", "Dandi March"],
+        "correctIndex": 1
+      }
+    ]
+  }
+}

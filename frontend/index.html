@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Quiz App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="theme-toggle-container">
+      <button id="themeToggleBtn" class="theme-toggle-btn">🌙</button>
+    </div>
+    <div class="page">
+      <!-- LANDING SECTION -->
+      <section id="landingSection" class="section landing-section">
+        <div class="container">
+          <!-- HERO -->
+          <div class="landing-hero fade-in-up">
+            <p class="hero-badge">AI-powered smart quiz platform</p>
+
+            <h1 class="hero-title">
+              Practice smarter,<br />
+              <span class="hero-highlight">not harder.</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Generate personalized quizzes in seconds using AI or switch to
+              curated offline questions when the internet is not reliable.
+              Measure your score, timing and accuracy with a clean analytics
+              dashboard.
+            </p>
+
+            <ul class="hero-points">
+              <li>Adaptive MCQs powered by AI with safe offline fallback</li>
+              <li>Timed 10-question tests for fast but focused revision</li>
+              <li>Visual result analytics: accuracy, time taken & bar chart</li>
+            </ul>
+
+            <div class="hero-actions">
+              <button id="startQuizBtn" class="primary-btn hero-cta">
+                Start Quiz
+              </button>
+              <span class="hero-note"
+                >No signup required • Runs locally on your system</span
+              >
+            </div>
+          </div>
+
+          <!-- FEATURE CARDS + STATS -->
+          <div class="landing-bottom">
+            <div class="feature-row fade-in-up delay-1">
+              <div class="feature-card glass">
+                <div class="feature-icon">🤖</div>
+                <h3 class="feature-title">AI Question Generator</h3>
+                <p class="feature-text">
+                  Use AI to create fresh MCQs on demand, filtered by category
+                  and difficulty to match your preparation level.
+                </p>
+              </div>
+              <div class="feature-card glass">
+                <div class="feature-icon">📶</div>
+                <h3 class="feature-title">Offline Fallback</h3>
+                <p class="feature-text">
+                  When AI is unavailable, the app automatically uses a rich
+                  offline question bank so your quiz never stops.
+                </p>
+              </div>
+              <div class="feature-card glass">
+                <div class="feature-icon">📊</div>
+                <h3 class="feature-title">Smart Analytics</h3>
+                <p class="feature-text">
+                  View accuracy, correct vs wrong questions and time taken for
+                  each quiz in one simple, readable view.
+                </p>
+              </div>
+            </div>
+
+            <div class="hero-stats-row fade-in-up delay-2">
+              <div class="stat-item glass">
+                <div class="stat-value">10</div>
+                <div class="stat-label">Categories</div>
+              </div>
+              <div class="stat-item glass">
+                <div class="stat-value">3</div>
+                <div class="stat-label">Difficulty Levels</div>
+              </div>
+              <div class="stat-item glass">
+                <div class="stat-value">10</div>
+                <div class="stat-label">Questions / Quiz</div>
+              </div>
+              <div class="stat-item glass">
+                <div class="stat-value">AI + Offline</div>
+                <div class="stat-label">Dual Mode Engine</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SETUP SECTION -->
+      <section id="setupSection" class="section hidden">
+        <div class="container">
+          <div class="card setup-card glass fade-in-up">
+            <h2 class="section-title">Quiz Setup</h2>
+
+            <div class="setup-grid">
+              <!-- Category -->
+              <div class="field">
+                <label for="categorySelect" class="field-label">Category</label>
+                <div class="select-wrapper">
+                  <select id="categorySelect" class="select-control">
+                    <option>General Knowledge</option>
+                    <option>Science</option>
+                    <option>Mathematics</option>
+                    <option>Computer Basics</option>
+                    <option>Programming Fundamentals</option>
+                    <option>Current Affairs</option>
+                    <option>Sports</option>
+                    <option>Movies & Entertainment</option>
+                    <option>Geography</option>
+                    <option>History</option>
+                  </select>
+                  <span class="select-arrow">⌄</span>
+                </div>
+              </div>
+
+              <!-- Difficulty -->
+              <div class="field">
+                <label for="difficultySelect" class="field-label"
+                  >Difficulty</label
+                >
+                <div class="select-wrapper">
+                  <select id="difficultySelect" class="select-control">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                  </select>
+                  <span class="select-arrow">⌄</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- AI Toggle -->
+            <div class="ai-toggle-row">
+              <span class="ai-toggle-label">Use AI Questions</span>
+              <label class="switch">
+                <input type="checkbox" id="useAiToggle" />
+                <span class="slider"></span>
+              </label>
+            </div>
+
+            <p class="setup-note">
+              Each quiz will contain exactly <strong>10 MCQs</strong>.
+            </p>
+
+            <div class="setup-actions">
+              <button id="generateBtn" class="primary-btn">
+                Generate Quiz
+              </button>
+            </div>
+            <div id="loading" class="loading hidden">Generating questions…</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- QUIZ SECTION -->
+      <section id="quizSection" class="section hidden">
+        <div class="container card quiz-card">
+          <div class="quiz-header">
+            <h2 class="section-title">Quiz</h2>
+            <div class="quiz-meta">
+              <span id="quizCategoryLabel"></span>
+              <span id="quizDifficultyLabel"></span>
+              <span id="timerLabel"></span>
+            </div>
+          </div>
+
+          <form id="quizForm">
+            <ol id="questionList"></ol>
+          </form>
+
+          <button id="submitBtn" class="primary-btn">Submit Quiz</button>
+        </div>
+      </section>
+
+      <!-- ANALYTICS SECTION -->
+      <section id="analyticsSection" class="section hidden">
+        <div class="container">
+          <div class="card glass">
+            <h2 class="section-title">Quiz Analytics</h2>
+
+            <div class="analytics-grid">
+              <!-- LEFT: summary + donut chart -->
+              <div class="analytics-summary">
+                <p id="scoreSummary"></p>
+                <p id="timeTakenText"></p>
+                <p id="accuracyText"></p>
+
+                <div class="metric-row">
+                  <div class="metric-pill">
+                    <span class="metric-label">Correct</span>
+                    <span id="metricCorrect" class="metric-value">0</span>
+                  </div>
+                  <div class="metric-pill">
+                    <span class="metric-label">Wrong</span>
+                    <span id="metricWrong" class="metric-value">0</span>
+                  </div>
+                  <div class="metric-pill">
+                    <span class="metric-label">Total</span>
+                    <span id="metricTotal" class="metric-value">0</span>
+                  </div>
+                </div>
+
+                <div class="chart-wrapper small-chart">
+                  <canvas id="scoreDonutChart"></canvas>
+                </div>
+              </div>
+
+              <!-- RIGHT: bar chart -->
+              <div class="analytics-chart">
+                <h3 class="chart-title">Question Distribution</h3>
+                <div class="chart-wrapper">
+                  <canvas id="scoreBarChart"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <!-- Detailed review -->
+            <div id="reviewContainer" class="review hidden">
+              <h3>Question Review</h3>
+              <ol id="reviewList"></ol>
+            </div>
+
+            <div class="actions">
+              <button id="downloadPdfBtn" class="secondary-btn">
+                Download Report (PDF)
+              </button>
+              <button id="retakeBtn" class="secondary-btn">
+                Back to Quiz Setup
+              </button>
+              <button id="homeBtn" class="secondary-btn">Go to Home</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Chart.js for simple analytics graph -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

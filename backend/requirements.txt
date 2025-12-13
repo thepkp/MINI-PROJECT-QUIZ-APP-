@@ -1,0 +1,23 @@
+# Core web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.1
+
+# Google Gemini (Generative AI)
+google-generativeai==0.8.3
+
+# Data and utility handling
+pydantic==2.8.2
+python-dotenv==1.0.1
+
+# For AI / JSON / API formatting
+requests==2.32.3
+
+# PDF and image handling (if used)
+reportlab==4.2.4
+Pillow==10.4.0
+
+# Optional: CORS (for frontend-backend connection)
+fastapi-cors==0.2.0
+
+# Optional: chart generation or analytics
+matplotlib==3.9.2

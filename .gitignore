@@ -1,0 +1,85 @@
+# ======================================================
+# PYTHON BACKEND IGNORE RULES
+# ======================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment variables
+.env
+*.env
+
+# Local configuration files
+*.log
+*.sqlite3
+*.db
+*.pid
+
+# Caches and temporary files
+.cache/
+.pytest_cache/
+*.tmp
+*.bak
+*.swp
+
+# IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ======================================================
+# FRONTEND IGNORE RULES
+# ======================================================
+
+# Node modules (if used in future)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / dist folders (e.g. Netlify build)
+dist/
+build/
+
+# Cache and temp files
+.cache/
+*.lock
+*.map
+
+# Frontend environment
+frontend/.env
+frontend/*.env
+
+# ======================================================
+# MISCELLANEOUS
+# ======================================================
+
+# Screenshots or large media files (optional)
+*.mp4
+*.mov
+*.avi
+*.zip
+*.tar
+*.gz
+
+# Local test files or backups
+test/
+tests/
+backup/
