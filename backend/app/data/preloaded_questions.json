@@ -150,7 +150,7 @@
     {"id":"cb_hard_9","questionText":"Which type of software is used to detect and remove malware?","options":["System Software","Application Software","Antivirus","Utility Software"],"correctIndex":2},
     {"id":"cb_hard_10","questionText":"Which protocol ensures secure web communication?","options":["HTTP","HTTPS","FTP","SMTP"],"correctIndex":1}
   ]
-}
+},
   "Programming Fundamentals": {
   "easy":[
     {"id":"pf_easy_1","questionText":"Which symbol is used to end a statement in most programming languages?","options":[".",";","!","/"],"correctIndex":1},
@@ -188,7 +188,7 @@
     {"id":"pf_hard_9","questionText":"Which keyword is used to inherit a class in Python?","options":["super","extends","inherits","base"],"correctIndex":0},
     {"id":"pf_hard_10","questionText":"Which method removes and returns an element at a given index in a list?","options":["pop()","remove()","delete()","discard()"],"correctIndex":0}
   ]
-}
+},
 "Current Affairs": {
   "easy":[
     {"id":"ca_easy_1","questionText":"Who is the current Secretary-General of the United Nations?","options":["Antonio Guterres","Ban Ki-moon","Kofi Annan","Boutros Boutros-Ghali"],"correctIndex":0},
@@ -226,7 +226,7 @@
     {"id":"ca_hard_9","questionText":"Which country launched the largest floating solar farm in 2025?","options":["India","China","Japan","USA"],"correctIndex":1},
     {"id":"ca_hard_10","questionText":"Which landmark environmental treaty was ratified in 2025?","options":["Paris Agreement","Montreal Protocol","Glasgow Pact","Stockholm Convention"],"correctIndex":2}
   ]
-}
+},
 "Sports": {
   "easy":[
     {"id":"sports_easy_1","questionText":"Which country won the 2023 FIFA Women’s World Cup?","options":["USA","Spain","Germany","Brazil"],"correctIndex":1},
@@ -264,7 +264,7 @@
     {"id":"sports_hard_9","questionText":"Which country won the 2025 FIBA Basketball World Cup?","options":["USA","Spain","Australia","France"],"correctIndex":0},
     {"id":"sports_hard_10","questionText":"Who holds the record for the most hat-tricks in international cricket as of 2025?","options":["Lasith Malinga","Shane Warne","Brett Lee","Muttiah Muralitharan"],"correctIndex":0}
   ]
-}
+},
 "Movies & Entertainment": {
   "easy":[
     {"id":"movies_easy_1","questionText":"Which movie won the Best Picture at the 2024 Oscars?","options":["Oppenheimer","Everything Everywhere All at Once","The Fabelmans","Avatar: The Way of Water"],"correctIndex":1},
@@ -302,7 +302,7 @@
     {"id":"movies_hard_9","questionText":"Which 2025 movie is a prequel to 'Avatar: The Way of Water'?","options":["Avatar 3","Avatar: The Next Chapter","Pandora Rising","Avatar Origins"],"correctIndex":0},
     {"id":"movies_hard_10","questionText":"Which actor plays the character of Doctor Doom in the upcoming 2025 Marvel movie?","options":["Javier Bardem","Michael Fassbender","Tom Hiddleston","Oscar Isaac"],"correctIndex":0}
   ]
-}
+},
 "Geography": {
   "easy":[
     {"id":"geo_easy_1","questionText":"Which is the largest continent by area?","options":["Africa","Asia","Europe","North America"],"correctIndex":1},
@@ -340,7 +340,7 @@
     {"id":"geo_hard_9","questionText":"Which African lake is known for having the most biodiversity of freshwater fish?","options":["Lake Victoria","Lake Tanganyika","Lake Malawi","Lake Chad"],"correctIndex":1},
     {"id":"geo_hard_10","questionText":"Which desert in the world is the coldest?","options":["Sahara","Gobi","Karakoram","Antarctic Desert"],"correctIndex":3}
   ]
-}
+},
 "History": {
   "easy":[
     {"id":"hist_easy_1","questionText":"Who was the first President of the United States?","options":["George Washington","Thomas Jefferson","Abraham Lincoln","John Adams"],"correctIndex":0},
