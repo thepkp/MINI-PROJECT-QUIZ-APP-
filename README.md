@@ -134,11 +134,12 @@ GEMINI_API_KEY=your_gemini_api_key
 Use .env.example for reference if needed.
 
 🧾 API Endpoints
+```
 🔹 Generate Questions (POST)
 URL: /api/generate-questions
-
+```
 Request:
-
+```
 typescript
 Copy code
 {
@@ -147,8 +148,9 @@ Copy code
   "numQuestions": 10,
   "useAI": true
 }
+```
 Response:
-
+```
 typescript
 Copy code
 {
@@ -161,19 +163,22 @@ Copy code
     }
   ]
 }
+```
 🔹 Score Quiz (POST)
+```
 URL: /api/score-quiz
-
+```
 Request:
-
+```
 typescript
 Copy code
 {
   "questions": [...],
   "userAnswers": [0, 1, 2, 3]
 }
+```
 Response:
-
+```
 typescript
 Copy code
 {
@@ -182,28 +187,31 @@ Copy code
   "wrongCount": 3,
   "scorePercent": 70.0
 }
+```
 📊 Analytics Dashboard
-Displays Donut Chart for correct vs wrong.
 
-Displays Bar Chart for performance summary.
+- Displays Donut Chart for correct vs wrong.
 
-Lists Question Review section with:
+- Displays Bar Chart for performance summary.
 
-User answers
+- Lists Question Review section with:
 
-Correct answers
+- User answers
 
-Visual feedback (✔️ or ❌)
+- Correct answers
 
-Users can also download the entire report as a PDF, which includes:
+- Visual feedback (✔️ or ❌)
 
-Score summary
+- Users can also download the entire report as a PDF, which includes:
 
-Charts
+- Score summary
 
-Detailed question review
+- Charts
+
+- Detailed question review
 
 📦 requirements.txt
+```
 txt
 Copy code
 fastapi==0.115.0
@@ -216,8 +224,12 @@ reportlab==4.2.4
 Pillow==10.4.0
 fastapi-cors==0.2.0
 matplotlib==3.9.2
-🌍 Deployment Guide
+```
+# 🌍 Deployment Guide
+```
 🚀 Frontend (Netlify)
+```
+```
 Log in to Netlify
 
 Click “New Site from Git”
@@ -227,7 +239,6 @@ Connect your GitHub repository
 Set build directory to frontend
 
 Deploy — your app will get a public URL like:
-
 arduino
 Copy code
 https://ai-quiz-app.netlify.app
@@ -245,16 +256,20 @@ Set:
 Build Command: pip install -r requirements.txt
 
 Start Command: uvicorn app.main:app --host 0.0.0.0 --port 10000
-
+```
+```
 Add environment variable:
 
 ini
 Copy code
 GEMINI_API_KEY=your_gemini_api_key
-📸 Screenshots
+```
+# 📸 Screenshots
+
 Setup Page	Quiz Screen	Analytics Dashboard
 
 🧠 Key Learnings
+```
 Integration of AI models (Gemini) into interactive apps.
 
 Building RESTful APIs using FastAPI.
@@ -264,17 +279,20 @@ Handling async data fetches in JavaScript.
 Generating dynamic PDF reports using jsPDF.
 
 Hosting full-stack apps with Netlify + Render.
-
-👨‍💻 Author
+```
+# 👨‍💻 Author
+```
 Piyush Kumar
 B.Tech CSE — ABES Engineering College
 
 Passionate about AI, innovation, and creating smart engineering solutions.
-
-🪪 License
+```
+# 🪪 License
+```
 This project is licensed under the MIT License — free to use and modify.
-
-⭐ How to Contribute
+```
+# ⭐ How to Contribute
+```
 Fork the repository
 
 Create a new branch: git checkout -b feature-name
@@ -284,8 +302,11 @@ Commit your changes: git commit -m "Added new feature"
 Push to your fork: git push origin feature-name
 
 Create a Pull Request
-
-💬 Support
+```
+# 💬 Support
+```
 If you found this project useful, consider giving it a ⭐ on GitHub!
 For any issues, open an Issue.
+```
+
 
