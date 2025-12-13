@@ -533,6 +533,9 @@ label.option input[type="radio"] {
   margin: 0 0 4px;
   font-size: 14px;
 }
+.analytics-summary{
+   margin-left:12px;
+}
 
 .metric-row {
   display: flex;
@@ -542,8 +545,8 @@ label.option input[type="radio"] {
 }
 
 .metric-pill {
-  padding: 6px 10px;
-  border-radius: 999px;
+  padding: 6px 12px;
+  border-radius: 989px;
   background: rgba(148, 163, 184, 0.12);
   border: 1px solid var(--border-color);
   min-width: 80px;
@@ -564,6 +567,7 @@ label.option input[type="radio"] {
   border-radius: 12px;
   background: var(--muted-bg);
   padding: 12px;
+  margin-right: 12px; 
 }
 
 body.dark .analytics-chart {
