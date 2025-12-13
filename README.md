@@ -226,40 +226,42 @@ fastapi-cors==0.2.0
 matplotlib==3.9.2
 ```
 # 🌍 Deployment Guide
+
+- 🚀 Frontend (Netlify)
+
 ```
-🚀 Frontend (Netlify)
-```
-```
-Log in to Netlify
+- Log in to Netlify
 
-Click “New Site from Git”
+- Click “New Site from Git”
 
-Connect your GitHub repository
+- Connect your GitHub repository
 
-Set build directory to frontend
+- Set build directory to frontend
 
-Deploy — your app will get a public URL like:
+- Deploy — your app will get a public URL like:
 arduino
-Copy code
+- Copy code
 https://ai-quiz-app.netlify.app
-⚙️ Backend (Render)
-Log in to Render
-
-Create a new Web Service
-
-Connect your GitHub repo
-
-Select the /backend folder
-
-Set:
-
-Build Command: pip install -r requirements.txt
-
-Start Command: uvicorn app.main:app --host 0.0.0.0 --port 10000
 ```
+- ⚙️ Backend (Render)
 ```
-Add environment variable:
+- Log in to Render
 
+- Create a new Web Service
+
+- Connect your GitHub repo
+
+- Select the /backend folder
+
+- Set:
+
+- Build Command: pip install -r requirements.txt
+
+- Start Command: uvicorn app.main:app --host 0.0.0.0 --port 10000
+```
+
+- Add environment variable:
+```
 ini
 Copy code
 GEMINI_API_KEY=your_gemini_api_key
@@ -270,15 +272,15 @@ Setup Page	Quiz Screen	Analytics Dashboard
 
 🧠 Key Learnings
 ```
-Integration of AI models (Gemini) into interactive apps.
+- Integration of AI models (Gemini) into interactive apps.
 
-Building RESTful APIs using FastAPI.
+- Building RESTful APIs using FastAPI.
 
-Handling async data fetches in JavaScript.
+- Handling async data fetches in JavaScript.
 
-Generating dynamic PDF reports using jsPDF.
+- Generating dynamic PDF reports using jsPDF.
 
-Hosting full-stack apps with Netlify + Render.
+- Hosting full-stack apps with Netlify + Render.
 ```
 # 👨‍💻 Author
 ```
@@ -293,15 +295,15 @@ This project is licensed under the MIT License — free to use and modify.
 ```
 # ⭐ How to Contribute
 ```
-Fork the repository
+- Fork the repository
 
-Create a new branch: git checkout -b feature-name
+- Create a new branch: git checkout -b feature-name
 
-Commit your changes: git commit -m "Added new feature"
+- Commit your changes: git commit -m "Added new feature"
 
-Push to your fork: git push origin feature-name
+- Push to your fork: git push origin feature-name
 
-Create a Pull Request
+- Create a Pull Request
 ```
 # 💬 Support
 ```
