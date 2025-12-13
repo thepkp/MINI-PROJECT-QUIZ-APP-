@@ -257,24 +257,41 @@ function renderAnalytics(result, timeTakenMs) {
     data: {
       labels: ["Correct", "Wrong"],
       datasets: [
-        {
-          data: [result.correctCount, result.wrongCount],
-          backgroundColor: ["#22c55e", "#f97373"], // green, red
-          hoverOffset: 4,
-        },
+      {
+        data: [result.correctCount, result.wrongCount],
+        backgroundColor: ["#22c55e", "#f97373"],
+      
+        borderWidth: 6,          
+        borderColor: "transparent",
+        spacing: 2,              
+        borderRadius: 8,         
+        hoverOffset: 6
+      },
       ],
     },
-    options: {
-      cutout: "65%",
-      plugins: {
-        legend: {
-          position: "bottom",
-          labels: {
-            boxWidth: 12,
+  options: {
+    cutout: "72%",            
+    animation: {
+      animateScale: true
+    },
+    plugins: {
+      legend: {
+        position: "bottom",
+        labels: {
+          boxWidth: 10,
+          padding: 14,
+          font: {
+            size: 12
           },
         },
       },
+      tooltip: {
+        padding: 10,
+        cornerRadius: 8
+      },
     },
+  },
+
   });
 
   // ----- Bar chart -----
@@ -287,12 +304,17 @@ function renderAnalytics(result, timeTakenMs) {
     data: {
       labels: ["Correct", "Wrong"],
       datasets: [
-        {
-          label: "Questions",
-          data: [result.correctCount, result.wrongCount],
-          backgroundColor: ["#4f46e5", "#6366f1"],
-          borderRadius: 8,
-        },
+      {
+        label: "Questions",
+        data: [result.correctCount, result.wrongCount],
+        backgroundColor: ["#4f46e5", "#6366f1"],
+      
+        barThickness: 20,       
+        maxBarThickness: 24,    
+        categoryPercentage: 0.6,
+        barPercentage: 0.6,     
+        borderRadius: 6         
+      },
       ],
     },
     options: {
