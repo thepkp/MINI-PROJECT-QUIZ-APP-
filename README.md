@@ -40,8 +40,11 @@ ai-quiz-app/
 │
 ├── .gitignore
 └── README.md
+```
+
 🧰 Technologies Used
 🖥️ Frontend
+```
 HTML5
 
 CSS3 (with glassmorphism and transitions)
@@ -51,8 +54,9 @@ Vanilla JavaScript (ES6+)
 Chart.js (for analytics visualization)
 
 jsPDF (for PDF report generation)
-
+```
 ⚙️ Backend
+```
 FastAPI (Python Web Framework)
 
 Uvicorn (ASGI Server)
@@ -62,21 +66,23 @@ Pydantic (Data validation)
 Python-dotenv (Environment variable management)
 
 Google Generative AI SDK (google-generativeai)
-
+```
 ☁️ Deployment
+```
 Frontend: Netlify
 
 Backend: Render or Railway
-
+```
 ⚙️ Installation & Setup Guide
 1️⃣ Clone the Repository
 bash
-Copy code
+```
 git clone https://github.com/your-username/ai-quiz-app.git
 cd ai-quiz-app
+```
 2️⃣ Backend Setup (FastAPI + Gemini)
 bash
-Copy code
+```
 cd backend
 python -m venv venv
 venv\Scripts\activate      # For Windows
@@ -84,16 +90,18 @@ venv\Scripts\activate      # For Windows
 source venv/bin/activate   # For macOS/Linux
 
 pip install -r requirements.txt
+```
 Create a .env file in the backend directory:
-
 bash
-Copy code
+```
 GEMINI_API_KEY=your_google_gemini_api_key_here
+```
 Run the FastAPI server:
 
 bash
-Copy code
+```
 uvicorn app.main:app --reload
+```
 The backend will start at:
 ➡️ http://127.0.0.1:8000
 
@@ -101,13 +109,14 @@ The backend will start at:
 Navigate to the frontend folder and open the app in your browser:
 
 bash
-Copy code
+```
 cd frontend
 You can serve it locally using Python’s built-in server:
-
+```
 bash
-Copy code
+```
 python -m http.server 8001
+```
 Then visit:
 ➡️ http://127.0.0.1:8001
 
@@ -117,9 +126,10 @@ Make sure your backend is running first.
 Create a .env file in the backend with the following key:
 
 bash
-Copy code
+```
 # backend/.env
 GEMINI_API_KEY=your_gemini_api_key
+```
 ⚠️ Note: Do not commit this .env file to GitHub.
 Use .env.example for reference if needed.
 
@@ -278,4 +288,4 @@ Create a Pull Request
 💬 Support
 If you found this project useful, consider giving it a ⭐ on GitHub!
 For any issues, open an Issue.
-```
+
