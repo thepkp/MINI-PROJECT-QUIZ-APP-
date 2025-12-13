@@ -141,7 +141,7 @@ function renderQuestions(questions) {
     const li = document.createElement("li");
 
     const qText = document.createElement("p");
-    qText.textContent = `${index + 1}. ${q.questionText}`;
+    qText.innerHTML = `${index + 1}. ${q.questionText}`;
     li.appendChild(qText);
 
     q.options.forEach((opt, optIndex) => {
@@ -161,6 +161,9 @@ function renderQuestions(questions) {
 
     questionList.appendChild(li);
   });
+    if (window.MathJax) {
+        MathJax.typeset();
+}
 }
 
 // ---------- submit quiz & analytics ----------
