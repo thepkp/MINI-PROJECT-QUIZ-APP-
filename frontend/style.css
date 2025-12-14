@@ -564,11 +564,14 @@ label.option input[type="radio"] {
   border-radius: 12px;
   background: var(--muted-bg);
   padding: 12px;
+  position: relative;
+  left: -40px;
+  top: 80px;
 
 }
 
 body.dark .analytics-chart {
-  background: rgba(15, 23, 42, 0.7);
+  background: rgb(255, 255, 255);
 
 }
 .chart-title {
@@ -658,7 +661,10 @@ body.dark .analytics-chart {
   background: var(--muted-bg);
   border: 1px solid var(--border-color);
   box-shadow: 0 8px 22px rgba(15, 23, 42, 0.18);
-
+  position:relative;
+  width: 98%;
+  left: 10px;
+ right: 10px;
 }
 
 
@@ -703,10 +709,11 @@ body.dark .review-item {
 
 .actions {
   margin-top: 16px;
+  margin-bottom: 10px;
   display: flex;
-  justify-content: center; /* center horizontally */
-  gap: 12px;               /* space between buttons */
-  flex-wrap: wrap;         /* wrap nicely on small screens */
+  justify-content: center; 
+  gap: 12px;               
+  flex-wrap: wrap;
 }
 
 /* make buttons a bit wider and consistent */
