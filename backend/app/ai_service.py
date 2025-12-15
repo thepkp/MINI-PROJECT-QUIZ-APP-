@@ -17,16 +17,14 @@ MODEL_NAME = "gemini-flash-latest"
 
 
 def _build_prompt(topic: str, difficulty: str, num_questions: int) -> str:
-    """
-    Build a clear prompt for Gemini so it returns STRICT JSON only.
-    """
+  
     difficulty_text = {
         "easy": "easy, beginner-friendly",
         "medium": "moderate, for undergraduate level",
         "hard": "challenging, conceptual and analytical"
     }.get(difficulty.lower(), "mixed difficulty")
 
-    # We strongly instruct the model to output only JSON in a known format.
+    
     return f"""
 You are a question generator for a multiple-choice quiz app.
 
@@ -83,7 +81,6 @@ async def generate_questions_ai(topic: str, difficulty: str, num_questions: int)
     # Sometimes models still wrap JSON in ```...```; strip that defensively
     raw_text = raw_text.strip()
     if raw_text.startswith("```"):
-        # remove the first ```... line
         raw_text = raw_text.split("```", maxsplit=2)[1]
         raw_text = raw_text.strip()
     if raw_text.startswith("json"):
