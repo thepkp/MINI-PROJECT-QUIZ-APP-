@@ -14,18 +14,23 @@ with open(DATA_PATH, "r", encoding="utf-8") as f:
 
 
 def get_fallback_questions(category: str, difficulty: str, num_questions: int) -> List[Question]:
-    """Return up to num_questions questions for given category & difficulty from static JSON."""
+    """Return exactly num_questions offline questions or raise error."""
+
     category_data = _DATA.get(category)
     if not category_data:
-        # If category not found, pick the first available one
         category_data = next(iter(_DATA.values()))
 
-    difficulty_questions = category_data.get(difficulty, [])
+    difficulty_questions = category_data.get(difficulty)
     if not difficulty_questions:
-        # If no questions for difficulty, fallback to easy
         difficulty_questions = category_data.get("easy", [])
 
-    sampled = random.sample(difficulty_questions, k=min(num_questions, len(difficulty_questions)))
+    if len(difficulty_questions) < num_questions:
+        raise ValueError(
+            f"Only {len(difficulty_questions)} offline questions available "
+            f"for {category} ({difficulty}). Need {num_questions}."
+        )
+
+    sampled = random.sample(difficulty_questions, k=num_questions)
 
     return [
         Question(
@@ -38,3 +43,4 @@ def get_fallback_questions(category: str, difficulty: str, num_questions: int) -
         )
         for q in sampled
     ]
+
